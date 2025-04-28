@@ -1,90 +1,69 @@
-/* ────────────────────────────────────────────────────────────────────────── */
-/* 1) Google Fonts (index.html <head>에 추가)                                */
-/* <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet"> */
-/* <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet"> */
-/* ────────────────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Gamja+Flower&display=swap');
 
-/* 2) Font 적용 */
+/* Gamja Flower 한글폰트 */
+.gamja-flower-regular {
+  font-family: "Gamja Flower", cursive;
+}
+
+:root {
+  --bg: #0d0d1a;
+  --text: #f0f8ff;
+  --neon1: #00e6e6;
+  --neon2: #ff4d4d;
+  --panel-bg: rgba(20,20,30,0.6);
+  --gap-wide: 10px;
+  --gap-narrow: 6px;
+  --pad-hero-top: 80px;
+  --pad-hero-bottom: 30px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+
 body {
-  font-family: "Dongle", sans-serif;
-  font-size: 18px; /* 전체 기본 글자 키우기 */
-  background: linear-gradient(135deg, #0d0d1a, #1a001a);
-  color: #f0f8ff;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  background: linear-gradient(135deg, var(--bg), #1a001a);
+  color: var(--text);
+  display:flex; flex-direction:column; min-height:100vh;
+  font-size: 18px;
 }
+
+/* 헤더 네온 그림자 약하게 */
 header h1 {
-  /* 그라데이션 텍스트 (Big Typography) */
-  font-family: 'Gamja Flower', cursive;
-  font-size: 3rem;
-  background: linear-gradient(45deg, #ff6ec4, #7873f5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 8px;
+  font-size: 2.5rem;
+  text-shadow: 0 0 3px var(--neon1), 0 0 6px var(--neon2);
 }
 
-/* 3) Filters, footer, score 에도 동일 폰트 */
-.filters select,
-.current-filter,
-footer,
-.info .score {
-  font-family: inherit;
-}
-
-/* 4) Layout */
 header {
-  text-align: center;
-  padding: 16px 0;
-  text-shadow: 0 0 5px #00e6e6, 0 0 10px #ff4d4d;
+  text-align:center;
+  padding:16px 0;
 }
-.filters {
-  margin: 8px 0;
-}
+.filters { margin:8px 0; }
 .filters select {
-  background: rgba(20,20,30,0.6);
-  color: #f0f8ff;
-  border: 2px solid #00e6e6;
-  padding: 6px 10px;
-  margin: 0 5px;
-  font-size: 1rem;
+  background: var(--panel-bg);
+  color: var(--text);
+  border: 2px solid var(--neon1);
+  padding:6px 10px;
+  margin:0 5px;
+  font-size:1rem;
 }
 .current-filter {
-  display: inline-block;
-  margin-top: 6px;
-  padding: 4px 12px;
-  border: 2px solid #ff4d4d;
-  border-radius: 20px;
-  text-shadow: 0 0 4px #ff4d4d;
-  font-weight: bold;
-  font-size: 1rem;
+  display:inline-block;
+  margin-top:6px;
+  padding:6px 12px;
+  border: 2px solid var(--neon2);
+  border-radius:20px;
+  text-shadow: 0 0 3px var(--neon2);
+  font-weight:bold;
+  font-size:1.2rem; /* NORMAL 소형 글자 크게 */
 }
 
 .hero {
   position: relative;
   background: url('images/symbol.jpg') center/cover no-repeat;
-  padding: 80px 0 30px;
+  padding-top: var(--pad-hero-top);
+  padding-bottom: var(--pad-hero-bottom);
   display: flex;
   justify-content: center;
   align-items: flex-start;
-}
-/* Blob 애니메이션 (유기적 배경) */
-.hero::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle at center, rgba(0,230,255,0.2), transparent 70%);
-  animation: blob 12s infinite;
-  z-index: 1;
-}
-@keyframes blob {
-  0%   { transform: translate(0,0) scale(1); }
-  33%  { transform: translate(25%,25%) scale(1.2); }
-  66%  { transform: translate(-25%,25%) scale(0.8); }
- 100%  { transform: translate(0,0) scale(1); }
+  overflow: hidden; /* blob 숨김 */
 }
 .hero .overlay {
   position: absolute;
@@ -96,42 +75,37 @@ header {
 .columns {
   position: relative;
   z-index: 3;
-  display: flex;
-  gap: 10px;
-  max-width: 1200px;
-  width: 100%;
+  display:flex;
+  gap: var(--gap-wide);
+  max-width:1200px;
+  width:100%;
 }
 .column {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap: var(--gap-narrow);
 }
 
-/* 5) 카드 스타일 & 마이크로 인터랙션 */
-/* 전기 흐르는 애니메이션 */
 @keyframes electric {
-  0%   { box-shadow: 0 0 5px #00e6e6, 0 0 10px #00e6e6; }
-  50%  { box-shadow: 0 0 20px #00e6e6, 0 0 30px #ff4d4d; }
- 100%  { box-shadow: 0 0 5px #00e6e6, 0 0 10px #ff4d4d; }
+  0%   { box-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon1); }
+  50%  { box-shadow: 0 0 20px var(--neon1), 0 0 30px var(--neon2); }
+ 100%  { box-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon2); }
 }
 
 .card {
   position: relative;
-  display: flex;
-  align-items: center;
+  display:flex;
+  align-items:center;
   background: rgba(30,30,40,0.8);
-  border: 2px solid #00e6e6;
-  border-radius: 30px;
-  padding: 12px 20px;
+  border: 2px solid var(--neon1);
+  border-radius:30px;
+  padding:12px 20px;
   animation: electric 1.5s infinite alternate;
   transition: transform .2s;
 }
 .card:hover {
   transform: scale(1.05) rotate(-1deg);
-}
-.card:active {
-  transform: scale(0.95) rotate(1deg);
 }
 .card.first {
   border-color: gold;
@@ -156,51 +130,44 @@ header {
   width: 36px; height: 36px;
   line-height: 36px; text-align: center;
   border-radius: 50%;
-  background: #ff4d4d;
+  background: var(--neon2);
   color: #000;
   font-weight: bold;
   margin-right: 14px;
-  box-shadow: 0 0 6px #ff4d4d;
+  box-shadow: 0 0 6px var(--neon2);
   font-size: 1.2rem;
 }
 
-.info {
-  flex:1;
-}
-/* 팀명 크게 */
+.info { flex:1; }
 .info .team {
-  font-size: 1.4rem;
+  font-size: 1.6rem; /* 팀명 더 크게 */
   font-weight: bold;
   margin-bottom: 4px;
 }
-/* 점수 */
-.info .score {
-  font-size: 1rem;
-}
+.info .score { font-size: 1rem; }
 
 footer {
   text-align: center;
   padding: 10px 0;
   background: #080815;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
-/* 반응형 */
 @media screen and (max-width: 1024px) {
   .columns { flex-direction: column; gap: 15px; }
 }
 @media screen and (max-width: 768px) {
-  header h1 { font-size: 2.5rem; }
+  header h1 { font-size: 2.2rem; }
   .filters select { font-size: 0.95rem; padding:3px 6px; }
-  .current-filter { font-size: 0.9rem; padding:3px 8px; }
-  .hero { padding: 60px 0 20px; }
+  .current-filter { font-size: 1.1rem; padding:4px 10px; }
+  .hero { padding-top: 60px; padding-bottom: 20px; }
   .card { padding: 8px 14px; }
   .rank { width:32px; height:32px; line-height:32px; margin-right:10px; }
-  .info .team { font-size:1.2rem; }
+  .info .team { font-size:1.4rem; }
   .info .score { font-size:0.9rem; }
 }
 @media screen and (max-width: 480px) {
-  header h1 { font-size:2rem; }
+  header h1 { font-size:1.8rem; }
   .filters { display:flex; flex-direction:column; gap:6px; }
   .filters select { width:100%; margin:0; }
   .columns { padding: 0 10px; }
