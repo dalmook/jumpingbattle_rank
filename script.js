@@ -1,9 +1,9 @@
 const data = [
   { team:"시시케틀", score:4379, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"앙큼별", score:4155, difficulty:"normal", roomSize:"small", isNew:true  },  // NEW 예시
+  { team:"앙큼별", score:4155, difficulty:"normal", roomSize:"small", isNew:true  },
   { team:"똘봉즈", score:3330, difficulty:"normal", roomSize:"small", isNew:false },
   { team:"헌지선우콜잘죽", score:3300, difficulty:"normal", roomSize:"small", isNew:false },
-  // …
+  // … 기타 데이터
 ];
 
 const diffSel = document.getElementById('difficulty');
@@ -33,6 +33,8 @@ function render() {
       const rankOverall = ci*half + i +1;
       const card = document.createElement('div');
       card.className = 'card';
+      // 1등이면 first 클래스 추가
+      if(rankOverall === 1) card.classList.add('first');
 
       // NEW 리본
       if(item.isNew){
@@ -42,19 +44,11 @@ function render() {
         card.appendChild(r);
       }
 
-      // 순위 + 1등 왕관
+      // 순위
       const rank = document.createElement('div');
       rank.className = 'rank';
       rank.textContent = rankOverall;
       card.appendChild(rank);
-
-      if(rankOverall === 1){
-        const crown = document.createElement('img');
-        crown.src = 'images/crown.png';
-        crown.alt = 'crown';
-        crown.className = 'crown';
-        card.appendChild(crown);
-      }
 
       // 팀·점수 정보
       const info = document.createElement('div');
