@@ -2,7 +2,13 @@ const data = [
   { team:"시시케틀", score:4379, difficulty:"normal", roomSize:"small", isNew:false },
   { team:"앙큼별", score:4155, difficulty:"normal", roomSize:"small", isNew:true  },
   { team:"똘봉즈", score:3330, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"헌지선우콜잘죽", score:3300, difficulty:"normal", roomSize:"small", isNew:false },
+  { team:"헌지선우콜잘죽", score:4300, difficulty:"normal", roomSize:"small", isNew:false },
+  { team:"똘봉즈1", score:3630, difficulty:"normal", roomSize:"small", isNew:false },
+  { team:"헌지선우", score:3800, difficulty:"normal", roomSize:"small", isNew:false },
+  { team:"똘즈", score:230, difficulty:"normal", roomSize:"small", isNew:false },
+  { team:"우콜잘죽", score:1300, difficulty:"normal", roomSize:"small", isNew:false },
+  { team:"즈", score:630, difficulty:"normal", roomSize:"small", isNew:false },
+  { team:"헌지", score:9300, difficulty:"normal", roomSize:"small", isNew:false }
   // … 기타 데이터
 ];
 
