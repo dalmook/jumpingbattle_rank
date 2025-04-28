@@ -33,16 +33,7 @@ function render() {
       const rankOverall = ci*half + i +1;
       const card = document.createElement('div');
       card.className = 'card';
-      // 1등이면 first 클래스 추가
       if(rankOverall === 1) card.classList.add('first');
-
-      // NEW 리본
-      if(item.isNew){
-        const r = document.createElement('div');
-        r.className = 'ribbon';
-        r.textContent = 'NEW';
-        card.appendChild(r);
-      }
 
       // 순위
       const rank = document.createElement('div');
@@ -50,11 +41,15 @@ function render() {
       rank.textContent = rankOverall;
       card.appendChild(rank);
 
-      // 팀·점수 정보
+      // 팀·점수 정보 + NEW 배너
       const info = document.createElement('div');
       info.className = 'info';
-      info.innerHTML = `<div class="team">${item.team}</div>
-                        <div class="score">Score: ${item.score}</div>`;
+      info.innerHTML = `
+        <div class="team">
+          ${item.team}
+          ${item.isNew ? '<span class="ribbon">NEW</span>' : ''}
+        </div>
+        <div class="score">Score: ${item.score}</div>`;
       card.appendChild(info);
 
       container.appendChild(card);
