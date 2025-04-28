@@ -11,15 +11,15 @@
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 
-/* 본문 전체에 Baloo 2 적용 */
+/* 본문: 한글용 Noto Sans KR, 영문용 Baloo 2 */
 body {
   background: linear-gradient(135deg, var(--bg), #1a001a);
   color: var(--text);
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Noto Sans KR', 'Baloo 2', sans-serif;
   display:flex; flex-direction:column; min-height:100vh;
 }
 
-/* 헤더 제목에 Fredoka One 적용 */
+/* 헤더 제목: Fredoka One */
 header h1 {
   font-family: 'Fredoka One', cursive;
   font-size: 2rem;
@@ -40,6 +40,7 @@ header {
   padding:4px 8px;
   margin:0 3px;
   font-size:0.95rem;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .current-filter {
   display:inline-block;
@@ -50,6 +51,7 @@ header {
   text-shadow: 0 0 4px var(--neon2);
   font-weight:bold;
   font-size:0.9rem;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .hero {
@@ -131,19 +133,23 @@ header {
 .info {
   flex:1;
 }
-/* 팀명에도 Fredoka One 적용 */
+/* 팀명: Fredoka One 적용 */
 .info .team {
   font-family: 'Fredoka One', cursive;
   font-size:1rem;
   margin-bottom:2px;
 }
-.info .score { font-size:0.85rem; }
+.info .score {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size:0.85rem;
+}
 
 footer {
   text-align:center;
   padding:10px 0;
   background:#080815;
   font-size:.75rem;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* 반응형 */
