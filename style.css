@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
 .dongle-light {
   font-family: "Dongle", sans-serif;
   font-weight: 300;
@@ -21,13 +23,11 @@ body {
   background: linear-gradient(135deg, var(--bg), #1a001a);
   color: var(--text);
   display:flex; flex-direction:column; min-height:100vh;
+  font-family: "Dongle", sans-serif;
 }
 
-body:not(.cute-font-regular) {
-  font-family: 'Dongle', cursive;
-}
 header h1, .info .team {
-  font-family: 'Dongle', cursive;
+  font-family: "Dongle", sans-serif;
 }
 
 .filters select,
@@ -93,7 +93,6 @@ header {
   gap: var(--gap-narrow);
 }
 
-/* 전기 흐르는 애니메이션 키프레임 */
 @keyframes electric {
   0%   { box-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon1); }
   50%  { box-shadow: 0 0 20px var(--neon1), 0 0 30px var(--neon2); }
@@ -108,7 +107,6 @@ header {
   border: 2px solid var(--neon1);
   border-radius:30px;
   padding:8px 16px;
-  /* 애니메이션 적용 */
   animation: electric 1.5s infinite alternate;
   transition: transform .2s;
 }
