@@ -21,34 +21,54 @@ const curr = document.getElementById('currentFilter');
 function render() {
   const diff = diffSel.value;
   const room = roomSel.value;
-  // 헤더 필터 텍스트 업데이트
   const diffText = diff==='all'? 'ALL' : diff.toUpperCase();
-  const roomText = room==='all'? '전체' : (room==='small'? '소형' : room==='medium'? '중형' : '대형');
+  const roomText = room==='all'? '전체' : room==='small'? '소형' : room==='medium'? '중형' : '대형';
   curr.textContent = `${diffText} ${roomText}`;
 
-  // 필터·정렬
   const arr = data
     .filter(x=> (diff==='all'||x.difficulty===diff) && (room==='all'||x.roomSize===room))
     .sort((a,b)=>b.score-a.score);
 
-  // 좌우 컬럼에 반씩 분배
   const half = Math.ceil(arr.length/2);
   const left = arr.slice(0, half), right = arr.slice(half);
-
   colL.innerHTML=''; colR.innerHTML='';
+
   [left, right].forEach((list, ci)=>{
     const container = ci===0? colL : colR;
     list.forEach((item, i)=>{
+      const rankOverall = ci*half + i +1;
       const card = document.createElement('div');
       card.className = 'card';
+
+      // NEW 리본
+      if(item.isNew){
+        const r = document.createElement('div');
+        r.className = 'ribbon';
+        r.textContent = 'NEW';
+        card.appendChild(r);
+      }
+
+      // 순위 + 1등 왕관
       const rank = document.createElement('div');
       rank.className = 'rank';
-      rank.textContent = (ci*half + i +1);
+      rank.textContent = rankOverall;
+      card.appendChild(rank);
+
+      if(rankOverall === 1){
+        const crown = document.createElement('img');
+        crown.src = 'images/crown.png';
+        crown.alt = 'crown';
+        crown.className = 'crown';
+        card.appendChild(crown);
+      }
+
+      // 팀·점수 정보
       const info = document.createElement('div');
       info.className = 'info';
       info.innerHTML = `<div class="team">${item.team}</div>
                         <div class="score">Score: ${item.score}</div>`;
-      card.append(rank, info);
+      card.appendChild(info);
+
       container.appendChild(card);
     });
   });
