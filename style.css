@@ -1,61 +1,77 @@
 :root {
   --bg: #0d0d1a;
-  --text: #e0e0e0;
-  --neon: #00e6e6;
-  --card-bg: rgba(20,20,30,0.8);
+  --text: #f0f8ff;
+  --neon1: #00e6e6;
+  --neon2: #ff4d4d;
+  --panel-bg: rgba(20,20,30,0.6);
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
   background: linear-gradient(135deg, #0d0d1a, #1a001a);
   color: var(--text);
   font-family: 'Segoe UI', sans-serif;
-  min-height:100vh;
-  display:flex; flex-direction:column;
+  display:flex; flex-direction:column; min-height:100vh;
 }
 header {
   text-align:center; padding:20px;
-  text-shadow: 0 0 5px var(--neon), 0 0 10px var(--neon);
+  text-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon2);
 }
 .filters {
-  margin-top:10px;
+  margin:10px 0;
 }
 .filters select {
-  background: var(--card-bg);
+  background: var(--panel-bg);
   color: var(--text);
-  border: 2px solid var(--neon);
-  padding:8px 12px;
+  border: 2px solid var(--neon1);
+  padding:6px 10px;
   margin:0 5px;
   font-size:1rem;
-  text-shadow: none;
 }
-.grid {
-  display:grid;
-  gap:20px;
-  padding:20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+.current-filter {
+  display:inline-block;
+  margin-top:10px;
+  padding:6px 12px;
+  border: 2px solid var(--neon2);
+  border-radius:20px;
+  text-shadow: 0 0 4px var(--neon2);
+  font-weight:bold;
+}
+.columns {
+  display:flex; flex:1; gap:20px; padding:20px;
+}
+.column {
   flex:1;
+  display:flex; flex-direction:column; gap:12px;
 }
 .card {
-  background: var(--card-bg);
-  border: 2px solid var(--neon);
-  border-radius:12px;
-  padding:15px;
+  display:flex; align-items:center;
+  background: var(--panel-bg);
+  border: 2px solid var(--neon1);
+  border-radius:30px;
+  padding:10px 20px;
   position: relative;
-  transition: transform .2s;
+  transition: transform .2s, box-shadow .2s;
 }
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
+  box-shadow: 0 0 10px var(--neon1), 0 0 20px var(--neon2);
 }
-.card h2 {
-  font-size:1.2rem;
-  margin-bottom:8px;
-  text-shadow: 0 0 4px var(--neon);
+.rank {
+  flex-shrink:0;
+  width:36px; height:36px;
+  line-height:36px; text-align:center;
+  border-radius:50%;
+  background: var(--neon2);
+  color:#000;
+  font-weight:bold;
+  margin-right:15px;
+  box-shadow: 0 0 6px var(--neon2);
 }
-.card p {
-  font-size:1rem;
+.info {
+  flex:1;
 }
+.info .team { font-size:1.1rem; margin-bottom:4px; }
+.info .score { font-size:0.9rem; }
 footer {
-  text-align:center; padding:10px;
-  font-size:.8rem;
-  background: #080815;
+  text-align:center; padding:12px; background:#080815; font-size:.8rem;
 }
