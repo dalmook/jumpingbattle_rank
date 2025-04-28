@@ -1,15 +1,9 @@
 const data = [
-  { team:"시시케틀", score:4379, difficulty:"normal", roomSize:"small" },
-  { team:"앙큼별", score:4155, difficulty:"normal", roomSize:"small" },
-  { team:"똘봉즈", score:3330, difficulty:"normal", roomSize:"small" },
-  { team:"헌지선우콜잘죽", score:3300, difficulty:"normal", roomSize:"small" },
-  { team:"오랄파의우물터", score:3297, difficulty:"normal", roomSize:"small" },
-  { team:"매니저의콜명", score:2655, difficulty:"normal", roomSize:"small" },
-  { team:"탱크워커", score:2575, difficulty:"normal", roomSize:"small" },
-  { team:"편집시누비", score:2537, difficulty:"normal", roomSize:"small" },
-  { team:"집순이삼남매", score:2517, difficulty:"normal", roomSize:"small" },
-  { team:"수영이형", score:2481, difficulty:"normal", roomSize:"small" },
-  // … 다른 난이도/방크기 데이터도 포함
+  { team:"시시케틀", score:4379, difficulty:"normal", roomSize:"small", isNew:false },
+  { team:"앙큼별", score:4155, difficulty:"normal", roomSize:"small", isNew:true  },  // NEW 예시
+  { team:"똘봉즈", score:3330, difficulty:"normal", roomSize:"small", isNew:false },
+  { team:"헌지선우콜잘죽", score:3300, difficulty:"normal", roomSize:"small", isNew:false },
+  // …
 ];
 
 const diffSel = document.getElementById('difficulty');
