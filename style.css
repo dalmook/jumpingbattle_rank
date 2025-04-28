@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
 
+/* Dongle 폰트 적용 */
 .dongle-light {
   font-family: "Dongle", sans-serif;
   font-weight: 300;
@@ -24,6 +25,7 @@ body {
   color: var(--text);
   display:flex; flex-direction:column; min-height:100vh;
   font-family: "Dongle", sans-serif;
+  font-size: 18px; /* 전체 폰트 크게 */
 }
 
 header h1, .info .team {
@@ -49,7 +51,7 @@ header {
   border: 2px solid var(--neon1);
   padding:4px 8px;
   margin:0 3px;
-  font-size:0.95rem;
+  font-size:1rem;
 }
 .current-filter {
   display:inline-block;
@@ -59,7 +61,7 @@ header {
   border-radius:20px;
   text-shadow: 0 0 4px var(--neon2);
   font-weight:bold;
-  font-size:0.9rem;
+  font-size:1rem;
 }
 
 .hero {
@@ -93,6 +95,7 @@ header {
   gap: var(--gap-narrow);
 }
 
+/* 전기 흐르는 애니메이션 */
 @keyframes electric {
   0%   { box-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon1); }
   50%  { box-shadow: 0 0 20px var(--neon1), 0 0 30px var(--neon2); }
@@ -106,12 +109,12 @@ header {
   background: rgba(30,30,40,0.8);
   border: 2px solid var(--neon1);
   border-radius:30px;
-  padding:8px 16px;
+  padding:12px 20px;
   animation: electric 1.5s infinite alternate;
   transition: transform .2s;
 }
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 .card.first {
   border-color: gold;
@@ -123,49 +126,69 @@ header {
   display: inline-block;
   background: gold;
   color: #000;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: bold;
-  padding: 2px 6px;
-  margin-left: 8px;
+  padding: 3px 7px;
+  margin-left: 10px;
   box-shadow: 0 0 4px rgba(0,0,0,0.5);
   border-radius: 4px;
 }
 
 .rank {
   flex-shrink:0;
-  width:32px; height:32px;
-  line-height:32px; text-align:center;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  text-align:center;
   border-radius:50%;
   background: var(--neon2);
   color:#000;
   font-weight:bold;
-  margin-right:12px;
+  margin-right:14px;
   box-shadow: 0 0 6px var(--neon2);
+  font-size: 1.2rem;
 }
-.info { flex:1; }
-.info .score { font-size:0.85rem; }
+
+.info {
+  flex:1;
+}
+
+/* 팀명 크게! */
+.info .team {
+  font-size: 1.4rem; /* 팀명 아주 크게 */
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* 점수도 살짝 키움 */
+.info .score {
+  font-size: 1rem;
+}
 
 footer {
   text-align:center;
   padding:10px 0;
   background:#080815;
-  font-size:.75rem;
+  font-size:0.9rem;
 }
 
-@media screen and (max-width: 1024px) { .columns { flex-direction: column; gap: 15px; } }
+/* 반응형 */
+@media screen and (max-width: 1024px) {
+  .columns { flex-direction: column; gap: 15px; }
+}
 @media screen and (max-width: 768px) {
-  header h1 { font-size:1.4rem; }
-  .filters select { font-size:0.85rem; padding:3px 6px; }
-  .current-filter { font-size:0.8rem; padding:3px 8px; }
+  header h1 { font-size:2rem; }
+  .filters select { font-size:0.95rem; padding:3px 6px; }
+  .current-filter { font-size:0.9rem; padding:3px 8px; }
   .hero { padding-top: 100px; padding-bottom: 20px; }
-  .card { padding:6px 12px; }
-  .rank { width:28px; height:28px; line-height:28px; margin-right:10px; }
-  .info .team { font-size:0.9rem; }
-  .info .score { font-size:0.8rem; }
+  .card { padding:8px 14px; }
+  .rank { width:32px; height:32px; line-height:32px; margin-right:10px; }
+  .info .team { font-size:1.2rem; }
+  .info .score { font-size:0.9rem; }
 }
 @media screen and (max-width: 480px) {
-  header h1 { font-size:1.2rem; }
-  .filters { display:flex; flex-direction:column; gap:4px; }
+  header h1 { font-size:1.6rem; }
+  .filters { display:flex; flex-direction:column; gap:6px; }
   .filters select { width:100%; margin:0; }
   .columns { padding: 0 10px; }
 }
