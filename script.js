@@ -1,32 +1,19 @@
-const data = [
-  { team:"시시케틀", score:4379, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"앙큼별", score:4155, difficulty:"normal", roomSize:"small", isNew:true  },
-  { team:"똘봉즈", score:3330, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"헌지선우콜잘죽", score:4300, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"똘봉즈1", score:3630, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"헌지선우", score:3800, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"똘즈", score:230, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"우콜잘죽", score:1300, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"즈", score:630, difficulty:"normal", roomSize:"small", isNew:false },
-  { team:"헌지", score:9300, difficulty:"normal", roomSize:"small", isNew:false }
-  // … 기타 데이터
-];
+let data = [];
 
-const diffSel = document.getElementById('difficulty');
-const roomSel = document.getElementById('roomSize');
+const diffBtns = document.querySelectorAll('#difficultyButtons .filter-btn');
+const roomBtns = document.querySelectorAll('#roomButtons .filter-btn');
 const colL = document.getElementById('colLeft');
 const colR = document.getElementById('colRight');
 const curr = document.getElementById('currentFilter');
 
+let selectedDiff = 'normal';
+let selectedRoom = 'small';
+
 function render() {
-  const diff = diffSel.value;
-  const room = roomSel.value;
-  const diffText = diff==='all'? 'ALL' : diff.toUpperCase();
-  const roomText = room==='all'? '전체' : room==='small'? '소형' : room==='medium'? '중형' : '대형';
-  curr.textContent = `${diffText} ${roomText}`;
+  curr.textContent = `${selectedDiff.toUpperCase()} ${selectedRoom === 'small' ? '소형' : selectedRoom === 'medium' ? '중형' : '대형'}`;
 
   const arr = data
-    .filter(x=> (diff==='all'||x.difficulty===diff) && (room==='all'||x.roomSize===room))
+    .filter(x=> x.difficulty === selectedDiff && x.roomSize === selectedRoom)
     .sort((a,b)=>b.score-a.score);
 
   const half = Math.ceil(arr.length/2);
@@ -41,13 +28,11 @@ function render() {
       card.className = 'card';
       if(rankOverall === 1) card.classList.add('first');
 
-      // 순위
       const rank = document.createElement('div');
       rank.className = 'rank';
       rank.textContent = rankOverall;
       card.appendChild(rank);
 
-      // 팀·점수 정보 + NEW 배너
       const info = document.createElement('div');
       info.className = 'info';
       info.innerHTML = `
@@ -63,6 +48,29 @@ function render() {
   });
 }
 
-diffSel.addEventListener('change', render);
-roomSel.addEventListener('change', render);
-window.addEventListener('load', render);
+diffBtns.forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    diffBtns.forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    selectedDiff = btn.dataset.filter;
+    render();
+  });
+});
+roomBtns.forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    roomBtns.forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    selectedRoom = btn.dataset.filter;
+    render();
+  });
+});
+
+window.addEventListener('load', ()=>{
+  fetch('data.json')
+    .then(res=>res.json())
+    .then(json=>{
+      data = json;
+      render();
+    })
+    .catch(err=>console.error('데이터 로딩 실패', err));
+});
