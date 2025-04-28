@@ -4,45 +4,51 @@
   --neon1: #00e6e6;
   --neon2: #ff4d4d;
   --panel-bg: rgba(20,20,30,0.6);
+  --gap-wide: 10px;    /* 컬럼 사이 간격 */
+  --gap-narrow: 6px;   /* 카드 사이 간격 */
+  --pad-hero-top: 150px;  /* hero 위쪽 여유 */
+  --pad-hero-bottom: 30px;/* hero 아래쪽 여유 */
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-  background: linear-gradient(135deg, #0d0d1a, #1a001a);
+  background: linear-gradient(135deg, var(--bg), #1a001a);
   color: var(--text);
   font-family: 'Segoe UI', sans-serif;
   display:flex; flex-direction:column; min-height:100vh;
 }
 header {
-  text-align:center; padding:20px;
+  text-align:center;
+  padding:16px 0;
   text-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon2);
 }
 .filters {
-  margin:10px 0;
+  margin:8px 0;
 }
 .filters select {
   background: var(--panel-bg);
   color: var(--text);
   border: 2px solid var(--neon1);
-  padding:6px 10px;
-  margin:0 5px;
-  font-size:1rem;
+  padding:4px 8px;
+  margin:0 3px;
+  font-size:0.95rem;
 }
 .current-filter {
   display:inline-block;
-  margin-top:10px;
-  padding:6px 12px;
+  margin-top:6px;
+  padding:4px 10px;
   border: 2px solid var(--neon2);
   border-radius:20px;
   text-shadow: 0 0 4px var(--neon2);
   font-weight:bold;
+  font-size:0.9rem;
 }
 
 /* hero 섹션: 배경 이미지 + 오버레이 */
 .hero {
   position: relative;
   background: url('images/symbol.jpg') center/cover no-repeat;
-  padding-top: 200px;
-  padding-bottom: 50px;
+  padding-top: var(--pad-hero-top);
+  padding-bottom: var(--pad-hero-bottom);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -57,19 +63,25 @@ header {
 .columns {
   position: relative;
   z-index: 2;
-  display:flex; gap:20px; max-width:1200px; width:100%;
+  display:flex;
+  gap: var(--gap-wide);
+  max-width:1200px;
+  width:100%;
 }
 .column {
   flex:1;
-  display:flex; flex-direction:column; gap:12px;
+  display:flex;
+  flex-direction:column;
+  gap: var(--gap-narrow);
 }
 
 .card {
-  display:flex; align-items:center;
+  display:flex;
+  align-items:center;
   background: rgba(30,30,40,0.8);
   border: 2px solid var(--neon1);
   border-radius:30px;
-  padding:10px 20px;
+  padding:8px 16px;
   transition: transform .2s, box-shadow .2s;
 }
 .card:hover {
@@ -78,21 +90,48 @@ header {
 }
 .rank {
   flex-shrink:0;
-  width:36px; height:36px;
-  line-height:36px; text-align:center;
+  width:32px; height:32px;
+  line-height:32px; text-align:center;
   border-radius:50%;
   background: var(--neon2);
   color:#000;
   font-weight:bold;
-  margin-right:15px;
+  margin-right:12px;
   box-shadow: 0 0 6px var(--neon2);
 }
 .info {
   flex:1;
 }
-.info .team { font-size:1.1rem; margin-bottom:4px; }
-.info .score { font-size:0.9rem; }
+.info .team { font-size:1rem; margin-bottom:2px; }
+.info .score { font-size:0.85rem; }
 
 footer {
-  text-align:center; padding:12px; background:#080815; font-size:.8rem;
+  text-align:center;
+  padding:10px 0;
+  background:#080815;
+  font-size:.75rem;
+}
+
+/* 반응형: 태블릿 이하에서 1열 스택, 글자크기↓ */
+@media screen and (max-width: 1024px) {
+  .columns {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header h1 { font-size:1.4rem; }
+  .filters select { font-size:0.85rem; padding:3px 6px; }
+  .current-filter { font-size:0.8rem; padding:3px 8px; }
+  .hero { padding-top: 120px; padding-bottom: 20px; }
+  .card { padding:6px 12px; }
+  .rank { width:28px; height:28px; line-height:28px; margin-right:10px; }
+  .info .team { font-size:0.9rem; }
+  .info .score { font-size:0.8rem; }
+}
+@media screen and (max-width: 480px) {
+  header h1 { font-size:1.2rem; }
+  .filters { display:flex; flex-direction:column; gap:4px; }
+  .filters select { width:100%; margin:0; }
+  .columns { padding: 0 10px; }
 }
