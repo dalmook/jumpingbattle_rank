@@ -44,9 +44,6 @@ header {
   padding:16px 0;
   text-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon2);
 }
-.controls {
-  display:flex; justify-content:center; align-items:center; gap:12px;
-}
 .filters { margin:8px 0; }
 .filters select {
   background: var(--panel-bg);
@@ -55,17 +52,6 @@ header {
   padding:4px 8px;
   margin:0 3px;
   font-size:0.95rem;
-}
-#playSeq {
-  background: var(--neon2);
-  border: none;
-  padding:6px 12px;
-  border-radius:6px;
-  cursor:pointer;
-  font-family: inherit;
-}
-#playSeq:hover {
-  background: gold;
 }
 .current-filter {
   display:inline-block;
@@ -109,6 +95,13 @@ header {
   gap: var(--gap-narrow);
 }
 
+/* 전기 흐르는 애니메이션 키프레임 */
+@keyframes electric {
+  0%   { box-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon1); }
+  50%  { box-shadow: 0 0 20px var(--neon1), 0 0 30px var(--neon2); }
+ 100%  { box-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon2); }
+}
+
 .card {
   position: relative;
   display:flex;
@@ -117,11 +110,12 @@ header {
   border: 2px solid var(--neon1);
   border-radius:30px;
   padding:8px 16px;
-  transition: transform .2s, box-shadow .2s;
+  /* 애니메이션 적용 */
+  animation: electric 1.5s infinite alternate;
+  transition: transform .2s;
 }
 .card:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 10px var(--neon1), 0 0 20px var(--neon2);
 }
 .card.first {
   border-color: gold;
@@ -152,9 +146,7 @@ header {
   margin-right:12px;
   box-shadow: 0 0 6px var(--neon2);
 }
-.info {
-  flex:1;
-}
+.info { flex:1; }
 .info .score { font-size:0.85rem; }
 
 footer {
@@ -164,9 +156,7 @@ footer {
   font-size:.75rem;
 }
 
-@media screen and (max-width: 1024px) {
-  .columns { flex-direction: column; gap: 15px; }
-}
+@media screen and (max-width: 1024px) { .columns { flex-direction: column; gap: 15px; } }
 @media screen and (max-width: 768px) {
   header h1 { font-size:1.4rem; }
   .filters select { font-size:0.85rem; padding:3px 6px; }
@@ -183,4 +173,3 @@ footer {
   .filters select { width:100%; margin:0; }
   .columns { padding: 0 10px; }
 }
-```  `Johnson`
