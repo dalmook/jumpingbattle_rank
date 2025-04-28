@@ -4,10 +4,10 @@
   --neon1: #00e6e6;
   --neon2: #ff4d4d;
   --panel-bg: rgba(20,20,30,0.6);
-  --gap-wide: 10px;    /* 컬럼 사이 간격 */
-  --gap-narrow: 6px;   /* 카드 사이 간격 */
-  --pad-hero-top: 150px;  /* hero 위쪽 여유 */
-  --pad-hero-bottom: 30px;/* hero 아래쪽 여유 */
+  --gap-wide: 10px;
+  --gap-narrow: 6px;
+  --pad-hero-top: 80px;    /* 패딩 축소 */
+  --pad-hero-bottom: 30px;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
@@ -43,7 +43,6 @@ header {
   font-size:0.9rem;
 }
 
-/* hero 섹션: 배경 이미지 + 오버레이 */
 .hero {
   position: relative;
   background: url('images/symbol.jpg') center/cover no-repeat;
@@ -76,6 +75,7 @@ header {
 }
 
 .card {
+  position: relative;           /* 리본용 */
   display:flex;
   align-items:center;
   background: rgba(30,30,40,0.8);
@@ -88,6 +88,26 @@ header {
   transform: scale(1.03);
   box-shadow: 0 0 10px var(--neon1), 0 0 20px var(--neon2);
 }
+
+/* NEW 리본 */
+.card .ribbon {
+  position: absolute;
+  top: 8px; left: -40px;
+  background: gold;
+  color: #000;
+  font-size:0.75rem;
+  font-weight:bold;
+  padding:2px 50px;
+  transform: rotate(-45deg);
+  box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+/* 왕관 아이콘 (1등) */
+.card .crown {
+  width:24px;
+  margin-left:8px;
+}
+
 .rank {
   flex-shrink:0;
   width:32px; height:32px;
@@ -112,18 +132,15 @@ footer {
   font-size:.75rem;
 }
 
-/* 반응형: 태블릿 이하에서 1열 스택, 글자크기↓ */
+/* 반응형 */
 @media screen and (max-width: 1024px) {
-  .columns {
-    flex-direction: column;
-    gap: 15px;
-  }
+  .columns { flex-direction: column; gap: 15px; }
 }
 @media screen and (max-width: 768px) {
   header h1 { font-size:1.4rem; }
   .filters select { font-size:0.85rem; padding:3px 6px; }
   .current-filter { font-size:0.8rem; padding:3px 8px; }
-  .hero { padding-top: 120px; padding-bottom: 20px; }
+  .hero { padding-top: 100px; padding-bottom: 20px; }
   .card { padding:6px 12px; }
   .rank { width:28px; height:28px; line-height:28px; margin-right:10px; }
   .info .team { font-size:0.9rem; }
