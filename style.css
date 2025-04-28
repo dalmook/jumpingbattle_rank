@@ -10,16 +10,25 @@
   --pad-hero-bottom: 30px;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
+
+/* 본문 전체에 Baloo 2 적용 */
 body {
   background: linear-gradient(135deg, var(--bg), #1a001a);
   color: var(--text);
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Baloo 2', cursive;
   display:flex; flex-direction:column; min-height:100vh;
 }
+
+/* 헤더 제목에 Fredoka One 적용 */
+header h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+  text-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon2);
+}
+
 header {
   text-align:center;
   padding:16px 0;
-  text-shadow: 0 0 5px var(--neon1), 0 0 10px var(--neon2);
 }
 .filters {
   margin:8px 0;
@@ -88,14 +97,13 @@ header {
   transform: scale(1.03);
   box-shadow: 0 0 10px var(--neon1), 0 0 20px var(--neon2);
 }
-
-/* 1등 카드 강조 */
+/* 1등 강조 테두리 */
 .card.first {
   border-color: gold;
   border-width: 4px;
 }
 
-/* NEW 배너 (팀명 옆, 가로형) */
+/* NEW 배너 (팀명 옆) */
 .card .ribbon {
   position: relative;
   display: inline-block;
@@ -105,7 +113,6 @@ header {
   font-weight: bold;
   padding: 2px 6px;
   margin-left: 8px;
-  transform: none;
   box-shadow: 0 0 4px rgba(0,0,0,0.5);
   border-radius: 4px;
 }
@@ -124,7 +131,12 @@ header {
 .info {
   flex:1;
 }
-.info .team { font-size:1rem; margin-bottom:2px; }
+/* 팀명에도 Fredoka One 적용 */
+.info .team {
+  font-family: 'Fredoka One', cursive;
+  font-size:1rem;
+  margin-bottom:2px;
+}
 .info .score { font-size:0.85rem; }
 
 footer {
