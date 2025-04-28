@@ -74,7 +74,6 @@ header {
   gap: var(--gap-narrow);
 }
 
-/* 기본 카드 스타일 */
 .card {
   position: relative;
   display:flex;
@@ -96,17 +95,19 @@ header {
   border-width: 4px;
 }
 
-/* NEW 리본 (변경 없음) */
+/* NEW 배너 (팀명 옆, 가로형) */
 .card .ribbon {
-  position: absolute;
-  top: 8px; left: -40px;
+  position: relative;
+  display: inline-block;
   background: gold;
   color: #000;
-  font-size:0.75rem;
-  font-weight:bold;
-  padding:2px 50px;
-  transform: rotate(-45deg);
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 2px 6px;
+  margin-left: 8px;
+  transform: none;
   box-shadow: 0 0 4px rgba(0,0,0,0.5);
+  border-radius: 4px;
 }
 
 .rank {
