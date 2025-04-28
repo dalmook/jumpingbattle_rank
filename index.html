@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>점핑배틀 화성병점점</title>
-  <!-- Google Fonts: Gamja Flower, Cute Font -->
+  <!-- Google Fonts: Cute Font, Gamja Flower -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Gamja+Flower&display=swap" rel="stylesheet">
@@ -14,19 +14,17 @@
   <header>
     <h1>점핑배틀 화성병점점</h1>
     <div class="filters">
-      <select id="difficulty">
-        <option value="all">전체 난이도</option>
-        <option value="basic">베이직</option>
-        <option value="easy">이지</option>
-        <option value="normal" selected>노말</option>
-        <option value="hard">하드</option>
-      </select>
-      <select id="roomSize">
-        <option value="all">전체 방 크기</option>
-        <option value="small" selected>소형</option>
-        <option value="medium">중형</option>
-        <option value="large">대형</option>
-      </select>
+      <div id="difficultyButtons" class="btn-group">
+        <button class="filter-btn" data-filter="basic">베이직</button>
+        <button class="filter-btn active" data-filter="normal">노말</button>
+        <button class="filter-btn" data-filter="hard">하드</button>
+        <button class="filter-btn" data-filter="easy">이지</button>
+      </div>
+      <div id="roomButtons" class="btn-group">
+        <button class="filter-btn active" data-filter="small">소형</button>
+        <button class="filter-btn" data-filter="medium">중형</button>
+        <button class="filter-btn" data-filter="large">대형</button>
+      </div>
     </div>
     <div id="currentFilter" class="current-filter">NORMAL 소형</div>
   </header>
