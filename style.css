@@ -6,7 +6,7 @@
   --panel-bg: rgba(20,20,30,0.6);
   --gap-wide: 10px;
   --gap-narrow: 6px;
-  --pad-hero-top: 80px;    /* 패딩 축소 */
+  --pad-hero-top: 80px;
   --pad-hero-bottom: 30px;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -74,8 +74,9 @@ header {
   gap: var(--gap-narrow);
 }
 
+/* 기본 카드 스타일 */
 .card {
-  position: relative;           /* 리본용 */
+  position: relative;
   display:flex;
   align-items:center;
   background: rgba(30,30,40,0.8);
@@ -89,7 +90,13 @@ header {
   box-shadow: 0 0 10px var(--neon1), 0 0 20px var(--neon2);
 }
 
-/* NEW 리본 */
+/* 1등 카드 강조 */
+.card.first {
+  border-color: gold;
+  border-width: 4px;
+}
+
+/* NEW 리본 (변경 없음) */
 .card .ribbon {
   position: absolute;
   top: 8px; left: -40px;
@@ -100,12 +107,6 @@ header {
   padding:2px 50px;
   transform: rotate(-45deg);
   box-shadow: 0 0 4px rgba(0,0,0,0.5);
-}
-
-/* 왕관 아이콘 (1등) */
-.card .crown {
-  width:24px;
-  margin-left:8px;
 }
 
 .rank {
