@@ -14,24 +14,28 @@
         <option value="all">전체 난이도</option>
         <option value="basic">베이직</option>
         <option value="easy">이지</option>
-        <option value="normal">노말</option>
+        <option value="normal" selected>노말</option>
         <option value="hard">하드</option>
       </select>
       <select id="roomSize">
         <option value="all">전체 방 크기</option>
-        <option value="small">소형</option>
+        <option value="small" selected>소형</option>
         <option value="medium">중형</option>
         <option value="large">대형</option>
       </select>
     </div>
+    <div id="currentFilter" class="current-filter">NORMAL 소형</div>
   </header>
 
   <main>
-    <div id="leaderboard" class="grid"></div>
+    <div class="columns">
+      <div id="colLeft" class="column"></div>
+      <div id="colRight" class="column"></div>
+    </div>
   </main>
 
   <footer>
-    © 2025 JUMPING BATTLE RANKING | Designed by YourName
+    © 2025 JUMPING BATTLE RANKING
   </footer>
 
   <script src="script.js"></script>
