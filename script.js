@@ -1,5 +1,8 @@
 const data = [
   { team:"팀A", score:1200, difficulty:"basic", roomSize:"small" },
+  { team:"문제아들", score:1400, difficulty:"basic", roomSize:"small" },
+  { team:"동탄고등", score:1200, difficulty:"basic", roomSize:"small" },
+  { team:"바람의아들", score:1500, difficulty:"basic", roomSize:"small" },
   { team:"팀B", score:980, difficulty:"easy", roomSize:"medium" },
   { team:"팀C", score:1500, difficulty:"hard", roomSize:"large" },
   // … 실제 데이터로 교체
