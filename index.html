@@ -4,30 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>점핑배틀 화성병점점</title>
-  <!-- Google Fonts: Baloo 2 (영문본문), Fredoka One (헤딩·팀명), Cute Font (한글용) -->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Fredoka+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body class="cute-font-regular">
   <header>
     <h1>점핑배틀 화성병점점</h1>
-    <div class="controls">
-      <div class="filters">
-        <select id="difficulty">
-          <option value="all">전체 난이도</option>
-          <option value="basic">베이직</option>
-          <option value="easy">이지</option>
-          <option value="normal" selected>노말</option>
-          <option value="hard">하드</option>
-        </select>
-        <select id="roomSize">
-          <option value="all">전체 방 크기</option>
-          <option value="small" selected>소형</option>
-          <option value="medium">중형</option>
-          <option value="large">대형</option>
-        </select>
-      </div>
-      <button id="playSeq">시퀀스 재생</button>
+    <div class="filters">
+      <select id="difficulty">
+        <option value="all">전체 난이도</option>
+        <option value="basic">베이직</option>
+        <option value="easy">이지</option>
+        <option value="normal" selected>노말</option>
+        <option value="hard">하드</option>
+      </select>
+      <select id="roomSize">
+        <option value="all">전체 방 크기</option>
+        <option value="small" selected>소형</option>
+        <option value="medium">중형</option>
+        <option value="large">대형</option>
+      </select>
     </div>
     <div id="currentFilter" class="current-filter">NORMAL 소형</div>
   </header>
