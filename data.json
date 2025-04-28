@@ -1,0 +1,12 @@
+[
+  { "team": "시시케틀",      "score": 4379, "difficulty": "normal", "roomSize": "small",  "isNew": false },
+  { "team": "앙큼별",        "score": 4155, "difficulty": "normal", "roomSize": "small",  "isNew": true  },
+  { "team": "똘봉즈",        "score": 3330, "difficulty": "normal", "roomSize": "small",  "isNew": false },
+  { "team": "점핑히어로",    "score": 2900, "difficulty": "basic",  "roomSize": "medium", "isNew": false },
+  { "team": "플라잉킥",      "score": 2750, "difficulty": "basic",  "roomSize": "medium", "isNew": true  },
+  { "team": "스카이점퍼",    "score": 2500, "difficulty": "easy",   "roomSize": "large",  "isNew": false },
+  { "team": "레드불버전",    "score": 2300, "difficulty": "easy",   "roomSize": "large",  "isNew": false },
+  { "team": "블루윙즈",      "score": 2100, "difficulty": "hard",   "roomSize": "small",  "isNew": false },
+  { "team": "썬더볼트",      "score": 1950, "difficulty": "hard",   "roomSize": "medium", "isNew": true  },
+  { "team": "초코점퍼",      "score": 1800, "difficulty": "hard",   "roomSize": "large",  "isNew": false }
+]
