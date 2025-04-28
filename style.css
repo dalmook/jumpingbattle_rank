@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
-
-.cute-font-regular {
-  font-family: "Cute Font", sans-serif;
-  font-weight: 400;
+.dongle-light {
+  font-family: "Dongle", sans-serif;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -26,10 +24,10 @@ body {
 }
 
 body:not(.cute-font-regular) {
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Dongle', cursive;
 }
 header h1, .info .team {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Dongle', cursive;
 }
 
 .filters select,
