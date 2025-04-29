@@ -38,9 +38,9 @@ function render() {
       info.innerHTML = `
         <div class="team">
           ${item.team}
-          ${item.isNew ? '<span class="ribbon">NEW</span>' : ''}
+          <span class="score">${item.score}</span>
         </div>
-        <div class="score">Score: ${item.score}</div>`;
+        <div class="timestamp">${new Date(item.timestamp).toLocaleString('ko-KR')}</div>`;
       card.appendChild(info);
 
       container.appendChild(card);
