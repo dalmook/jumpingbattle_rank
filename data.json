@@ -1,12 +1,12 @@
 [
-  { "team": "시시케틀",      "score": 4379, "difficulty": "normal", "roomSize": "small",  "isNew": false },
-  { "team": "앙큼별",        "score": 4155, "difficulty": "normal", "roomSize": "small",  "isNew": true  },
-  { "team": "똘봉즈",        "score": 3330, "difficulty": "normal", "roomSize": "small",  "isNew": false },
-  { "team": "점핑히어로",    "score": 2900, "difficulty": "basic",  "roomSize": "medium", "isNew": false },
-  { "team": "플라잉킥",      "score": 2750, "difficulty": "basic",  "roomSize": "medium", "isNew": true  },
-  { "team": "스카이점퍼",    "score": 2500, "difficulty": "easy",   "roomSize": "large",  "isNew": false },
-  { "team": "레드불버전",    "score": 2300, "difficulty": "easy",   "roomSize": "large",  "isNew": false },
-  { "team": "블루윙즈",      "score": 2100, "difficulty": "hard",   "roomSize": "small",  "isNew": false },
-  { "team": "썬더볼트",      "score": 1950, "difficulty": "hard",   "roomSize": "medium", "isNew": true  },
-  { "team": "초코점퍼",      "score": 1800, "difficulty": "hard",   "roomSize": "large",  "isNew": false }
+  { "team": "시시케틀",      "score": 4379, "difficulty": "normal", "roomSize": "small",  "isNew": false, "timestamp": "2025-04-29T14:05:00" },
+  { "team": "앙큼별",        "score": 4155, "difficulty": "normal", "roomSize": "small",  "isNew": true,  "timestamp": "2025-04-29T15:12:30" },
+  { "team": "똘봉즈",        "score": 3330, "difficulty": "normal", "roomSize": "small",  "isNew": false, "timestamp": "2025-04-29T13:45:20" },
+  { "team": "점핑히어로",    "score": 2900, "difficulty": "basic",  "roomSize": "medium", "isNew": false, "timestamp": "2025-04-28T11:20:10" },
+  { "team": "플라잉킥",      "score": 2750, "difficulty": "basic",  "roomSize": "medium", "isNew": true,  "timestamp": "2025-04-28T12:05:55" },
+  { "team": "스카이점퍼",    "score": 2500, "difficulty": "easy",   "roomSize": "large",  "isNew": false, "timestamp": "2025-04-27T17:30:00" },
+  { "team": "레드불버전",    "score": 2300, "difficulty": "easy",   "roomSize": "large",  "isNew": false, "timestamp": "2025-04-27T18:10:15" },
+  { "team": "블루윙즈",      "score": 2100, "difficulty": "hard",   "roomSize": "small",  "isNew": false, "timestamp": "2025-04-26T09:50:45" },
+  { "team": "썬더볼트",      "score": 1950, "difficulty": "hard",   "roomSize": "medium", "isNew": true,  "timestamp": "2025-04-26T10:25:00" },
+  { "team": "초코점퍼",      "score": 1800, "difficulty": "hard",   "roomSize": "large",  "isNew": false, "timestamp": "2025-04-25T14:00:00" }
 ]
