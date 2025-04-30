@@ -3782,5 +3782,16 @@
     "map": "level-14",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 0,
+    "team": "혜이서유안라임",
+    "start_time": "2025-04-30 18:15:55",
+    "score_time": "2025-04-30 18:31:58",
+    "allscore": 354,
+    "time": 0,
+    "map": "level-6",
+    "difficulty": "normal",
+    "roomSize": "medium"
   }
 ]
