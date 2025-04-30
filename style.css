@@ -21,10 +21,14 @@ header{ text-align:center;padding:16px 0;} header h1{font-size:2.5rem;text-shado
   border-radius:20px;
   padding:10px;
   animation:electric 1.5s infinite alternate;
-  /* 기본 밝기 제거 so team name stays bright */
+  filter: brightness(1.2); /* 기본 밝기 유지 */
   transition:transform .3s ease;
   width:100%;
 }
+.card:hover, .card.selected{
+  transform: scale(1.03); /* 호버 및 선택 시 확대 */
+}
+
 .card:hover{
   transform:scale(1.03);
   /* 호버 시 밝기 증가 */
