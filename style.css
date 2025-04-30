@@ -1,48 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Gamja+Flower&display=swap');
-:root { --bg:#0d0d1a; --text:#f0f8ff; --neon1:#00e6e6; --neon2:#ff4d4d; --gap:10px; }
-*{margin:0;padding:0;box-sizing:border-box;}
-body{background:linear-gradient(135deg,var(--bg),#1a001a);color:var(--text);font-family:"Gamja Flower",cursive;display:flex;flex-direction:column;min-height:100vh;}
-header{ text-align:center;padding:16px 0;} header h1{font-size:2.5rem;text-shadow:0 0 3px var(--neon1),0 0 6px var(--neon2);}
-.filters{display:flex;flex-wrap:wrap;justify-content:center;gap:var(--gap);padding:8px;}
-.btn-group{display:flex;gap:8px;}
-.filter-btn{background:rgba(20,20,30,0.6);color:var(--text);border:2px solid var(--neon1);padding:8px 12px;font-size:1rem;border-radius:6px;cursor:pointer;transition:0.2s;}
-.filter-btn.active{background:var(--neon1);color:#000;border-color:var(--neon2);}
-#teamSearch{padding:8px;font-size:0.9rem;border:2px solid var(--neon1);border-radius:6px;background:rgba(20,20,30,0.6);color:var(--text);width:160px;transition:width .2s;}
-.current-filter{margin-top:6px;padding:4px 10px;border:2px solid var(--neon2);border-radius:20px;text-shadow:0 0 3px var(--neon2);font-weight:bold;font-size:1rem;}
-.hero{position:relative;background:url('images/symbol.jpg') center/cover no-repeat;padding:60px 0;overflow:hidden;}
-.overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);}
-.columns{display:flex;flex-direction:column;gap:var(--gap);max-width:600px;width:100%;margin:0 auto;padding:0 10px;}
-@media(min-width:768px){.columns{flex-direction:row;flex-wrap:wrap;gap:var(--gap);}}
-.card{
-  display:flex;
-  align-items:center;
-  background:rgba(30,30,40,0.8);
-  border:2px solid var(--neon1);
-  border-radius:20px;
-  padding:10px;
-  animation:electric 1.5s infinite alternate;
-  filter: brightness(1.2); /* 기본 밝기 유지 */
-  transition:transform .3s ease;
-  width:100%;
-}
-.card:hover, .card.selected{
-  transform: scale(1.03); /* 호버 및 선택 시 확대 */
-}
 
-.card:hover{
-  transform:scale(1.03);
-  /* 호버 시 밝기 증가 */
-  filter:brightness(1.2);
+:root {
+  --bg: #0d0d1a;
+  --text: #f0f8ff;
+  --neon1: #00e6e6;
+  --neon2: #ff4d4d;
+  --gap: 10px;
 }
-@media(min-width:768px){.card{width:calc(50% - var(--gap));}}
-.card:hover{transform:scale(1.05);filter:brightness(1.1);}
-@keyframes electric{0%{box-shadow:0 0 5px var(--neon1);}50%{box-shadow:0 0 20px var(--neon1),0 0 30px var(--neon2);}100%{box-shadow:0 0 5px var(--neon2);}}
-.rank{position:relative;z-index:3;width:48px;height:48px;line-height:48px;text-align:center;border-radius:50%;background:orange;color:#fff;font-weight:bold;margin-right:14px;box-shadow:0 0 8px orange,0 0 12px var(--neon2);font-size:1.4rem;}
-.info{flex:1;}
-.info .team{font-size:1.2rem;font-weight:bold;display:flex;align-items:center;}
-.score-large{font-size:1.2rem;color:var(--neon1);margin-left:8px;}
-.meta{display:flex;gap:8px;font-size:0.8rem;color:#ccc;margin-top:4px;}
-.map{font-weight:bold;color:var(--neon1);}
-.timestamp{font-style:italic;}
-.highlight{background:yellow;color:#000;padding:0 4px;border-radius:4px;}
-footer{ text-align:center;padding:10px;background:#080815;font-size:0.8rem;}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: linear-gradient(135deg, var(--bg), #1a001a);
+  color: var(--text);
+  font-family: "Gamja Flower", cursive;
+  display:flex; flex-direction:column; min-height:100vh;
+}
+header { text-align:center; padding:16px 0; }
+header h1 { font-size:2.5rem; text-shadow:0 0 3px var(--neon1),0 0 6px var(--neon2); }
+
+.filters { display:flex; flex-wrap:wrap; justify-content:center; gap:var(--gap); padding:8px; }
+.btn-group { display:flex; gap:8px; }
+.btn-group.with-separator { border-right:2px solid var(--neon1); padding-right:12px; margin-right:12px; }
+.filter-btn { background:rgba(20,20,30,0.6); color:var(--text); border:2px solid var(--neon1);
+  padding:8px 12px; font-size:1rem; border-radius:6px; cursor:pointer; transition:0.2s; }
+.filter-btn.active { background:var(--neon1); color:#000; border-color:var(--neon2); }
+
+#teamSearch { padding:8px; font-size:0.9rem; border:2px solid var(--neon1); border-radius:6px;
+  background:rgba(20,20,30,0.6); color:var(--text); width:140px; transition:width .2s; }
+
+.current-filter { margin-top:6px; padding:4px 10px; border:2px solid var(--neon2);
+  border-radius:20px; text-shadow:0 0 3px var(--neon2); font-weight:bold; font-size:1rem; }
+
+.link-button { text-align:center; margin:12px 0; }
+.link-button a { display:inline-block; padding:10px 30px; background:var(--neon2);
+  color:#000; font-weight:bold; border-radius:8px; text-decoration:none; transition:transform .2s,background .2s; }
+.link-button a:hover { background:var(--neon1); transform:scale(1.05); }
+
+.hero { position:relative; background:url('images/symbol.jpg') center/cover no-repeat;
+  padding:60px 0; overflow:hidden; }
+.overlay { position:absolute; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.5); }
+.columns { display:flex; flex-direction:column; gap:var(--gap); max-width:600px; width:100%; margin:0 auto; padding:0 10px; }
+@media(min-width:768px) { .columns { flex-direction:row; flex-wrap:wrap; gap:var(--gap); } }
+
+@keyframes electric { 0%{box-shadow:0 0 5px var(--neon1);} 50%{box-shadow:0 0 20px var(--neon1),0 0 30px var(--neon2);} 100%{box-shadow:0 0 5px var(--neon2);} }
+
+.card { display:flex; align-items:center; background:rgba(30,30,40,0.8); border:2px solid var(--neon1);
+  border-radius:20px; padding:10px; animation:electric 1.5s infinite alternate;
+  transition:transform .3s ease; filter:brightness(1.2); width:100%; }
+.card:hover, .card.selected { transform:scale(1.03); }
+
+.rank { position:relative; z-index:2; width:48px; height:48px; line-height:48px;
+  text-align:center; border-radius:50%; background:orange; color:#000; font-weight:bold;
+  margin-right:12px; box-shadow:0 0 8px orange; font-size:1.4rem; }
+
+.info { flex:1; }
+.info .team { font-size:1.2rem; font-weight:bold; display:flex; align-items:center; }
+.score-large { font-size:1.2rem; color:var(--neon1); margin-left:8px; }
+.meta { display:flex; gap:8px; font-size:0.8rem; color:#ccc; margin-top:4px; }
+.map { font-weight:bold; color:var(--neon1); }
+.timestamp { font-style:italic; }
+
+.highlight { background:yellow; color:#000; padding:0 4px; border-radius:4px; }
+
+footer { text-align:center; padding:10px; background:#080815; font-size:0.8rem; }
