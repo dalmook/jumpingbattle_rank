@@ -1,5 +1,3 @@
-// script.js
-
 let data = [];
 
 // 필터 버튼 및 검색창, 컬럼, 현재 필터 표시 엘리먼트 참조
@@ -23,12 +21,8 @@ function render() {
   curr.textContent = `${selectedDiff.toUpperCase()} ${roomText}`;
 
   // 데이터 필터링 후 점수 기준 내림차순 정렬
-  // difficulty 또는 roomSize 필드가 없으면 통과시켜 표시
   const arr = data
-    .filter(x =>
-      (x.difficulty ? x.difficulty === selectedDiff : true) &&
-      (x.roomSize   ? x.roomSize   === selectedRoom : true)
-    )
+    .filter(x => x.difficulty === selectedDiff && x.roomSize === selectedRoom)
     .sort((a,b) => b.allscore - a.allscore);
 
   // 좌/우 컬럼으로 분할
@@ -55,7 +49,7 @@ function render() {
       rank.textContent = rankOverall;
       card.appendChild(rank);
 
-      // 정보 영역 (팀명, 점수, 시간, 맵)
+      // 정보 영역
       const info = document.createElement('div');
       info.className = 'info';
       info.innerHTML = `
@@ -101,7 +95,6 @@ searchInput.addEventListener('keydown', e => {
     const query = searchInput.value.trim().toLowerCase();
     const match = data.find(x => x.team.toLowerCase().includes(query));
     if (match) {
-      // 해당 난이도/방 크기 버튼 활성화
       diffBtns.forEach(b => b.classList.toggle('active', b.dataset.filter === match.difficulty));
       roomBtns.forEach(b => b.classList.toggle('active', b.dataset.filter === match.roomSize));
       selectedDiff = match.difficulty;
