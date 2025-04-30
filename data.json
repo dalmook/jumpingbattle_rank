@@ -3760,5 +3760,16 @@
     "map": "FULL",
     "difficulty": "basic",
     "roomSize": "medium"
+  },
+  {
+    "pad": 1,
+    "team": "뚱범",
+    "start_time": "2025-04-30 17:38:06",
+    "score_time": "2025-04-30 17:54:09",
+    "allscore": 1708,
+    "time": 0,
+    "map": "FULL",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
