@@ -13,7 +13,23 @@ header{ text-align:center;padding:16px 0;} header h1{font-size:2.5rem;text-shado
 .overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);}
 .columns{display:flex;flex-direction:column;gap:var(--gap);max-width:600px;width:100%;margin:0 auto;padding:0 10px;}
 @media(min-width:768px){.columns{flex-direction:row;flex-wrap:wrap;gap:var(--gap);}}
-.card{display:flex;align-items:center;background:rgba(30,30,40,0.8);border:2px solid var(--neon1);border-radius:20px;padding:10px;animation:electric 1.5s infinite alternate;transition:transform .3s ease,filter .3s ease;width:100%;}
+.card{
+  display:flex;
+  align-items:center;
+  background:rgba(30,30,40,0.8);
+  border:2px solid var(--neon1);
+  border-radius:20px;
+  padding:10px;
+  animation:electric 1.5s infinite alternate;
+  /* 기본 밝기 제거 so team name stays bright */
+  transition:transform .3s ease;
+  width:100%;
+}
+.card:hover{
+  transform:scale(1.03);
+  /* 호버 시 밝기 증가 */
+  filter:brightness(1.2);
+}
 @media(min-width:768px){.card{width:calc(50% - var(--gap));}}
 .card:hover{transform:scale(1.05);filter:brightness(1.1);}
 @keyframes electric{0%{box-shadow:0 0 5px var(--neon1);}50%{box-shadow:0 0 20px var(--neon1),0 0 30px var(--neon2);}100%{box-shadow:0 0 5px var(--neon2);}}
