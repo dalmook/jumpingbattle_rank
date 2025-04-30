@@ -3815,5 +3815,16 @@
     "map": "level-11",
     "difficulty": "normal",
     "roomSize": "medium"
+  },
+  {
+    "pad": 2,
+    "team": "문제아들",
+    "start_time": "2025-04-30 19:36:50",
+    "score_time": "2025-04-30 19:49:01",
+    "allscore": 6759,
+    "time": 4,
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "large"
   }
 ]
