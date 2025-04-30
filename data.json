@@ -1,480 +1,14 @@
 [
   {
-    "pad": 1,
-    "team": "솜사탕",
-    "start_time": "2025-04-26 14:12:36",
-    "score_time": "2025-04-26 14:28:38",
-    "allscore": 1093,
-    "time": 0,
-    "map": "level-15"
-  },
-  {
-    "pad": 3,
-    "team": "초코",
-    "start_time": "2025-04-26 14:17:52",
-    "score_time": "2025-04-26 14:33:55",
-    "allscore": 660,
-    "time": 0,
-    "map": "level-9"
-  },
-  {
-    "pad": 2,
-    "team": "가윤나윤♡",
-    "start_time": "2025-04-26 14:20:18",
-    "score_time": "2025-04-26 14:36:20",
-    "allscore": 1505,
-    "time": 0,
-    "map": "level-16"
-  },
-  {
-    "pad": 0,
-    "team": "유나들의",
-    "start_time": "2025-04-26 14:20:37",
-    "score_time": "2025-04-26 14:36:39",
-    "allscore": 1301,
-    "time": 0,
-    "map": "level-17"
-  },
-  {
-    "pad": 1,
-    "team": "ㅇㅅㅇ/ㅇㅈㅇ",
-    "start_time": "2025-04-26 14:45:14",
-    "score_time": "2025-04-26 15:00:34",
-    "allscore": 2623,
-    "time": 1,
-    "map": "FULL"
-  },
-  {
-    "pad": 0,
-    "team": "고양이이름치키",
-    "start_time": "2025-04-26 14:59:45",
-    "score_time": "2025-04-26 15:13:36",
-    "allscore": 4529,
-    "time": 3,
-    "map": "FULL"
-  },
-  {
-    "pad": 3,
-    "team": "연둥이",
-    "start_time": "2025-04-26 15:02:32",
-    "score_time": "2025-04-26 15:18:34",
-    "allscore": 1320,
-    "time": 0,
-    "map": "level-14"
-  },
-  {
-    "pad": 1,
-    "team": "안녕하세요",
-    "start_time": "2025-04-26 15:06:03",
-    "score_time": "2025-04-26 15:22:08",
-    "allscore": 1302,
-    "time": 0,
-    "map": "level-14"
-  },
-  {
-    "pad": 2,
-    "team": "민준이다현",
-    "start_time": "2025-04-26 15:09:48",
-    "score_time": "2025-04-26 15:25:50",
-    "allscore": 1318,
-    "time": 0,
-    "map": "level-16"
-  },
-  {
-    "pad": 0,
-    "team": "문찌문깡",
-    "start_time": "2025-04-26 15:14:38",
-    "score_time": "2025-04-26 15:30:40",
-    "allscore": 1602,
-    "time": 0,
-    "map": "level-18"
-  },
-  {
-    "pad": 3,
-    "team": "삐리빠리뽕",
-    "start_time": "2025-04-26 15:20:07",
-    "score_time": "2025-04-26 15:36:09",
-    "allscore": 532,
-    "time": 0,
-    "map": "level-9"
-  },
-  {
-    "pad": 1,
-    "team": "안녕하세요",
-    "start_time": "2025-04-26 15:23:02",
-    "score_time": "2025-04-26 15:39:05",
-    "allscore": 1240,
-    "time": 0,
-    "map": "level-16"
-  },
-  {
-    "pad": 2,
-    "team": "빵꾸똥꾸오랑우탄",
-    "start_time": "2025-04-26 15:27:38",
-    "score_time": "2025-04-26 15:43:40",
-    "allscore": 1135,
-    "time": 0,
-    "map": "level-14"
-  },
-  {
-    "pad": 0,
-    "team": "승승이",
-    "start_time": "2025-04-26 15:32:51",
-    "score_time": "2025-04-26 15:48:53",
-    "allscore": 1357,
-    "time": 0,
-    "map": "倒计时3"
-  },
-  {
-    "pad": 3,
-    "team": "뚜레블러",
-    "start_time": "2025-04-26 15:41:56",
-    "score_time": "2025-04-26 15:57:59",
-    "allscore": 1387,
-    "time": 0,
-    "map": "level-18"
-  },
-  {
-    "pad": 1,
-    "team": "이화친구들",
-    "start_time": "2025-04-26 15:44:40",
-    "score_time": "2025-04-26 16:00:43",
-    "allscore": 1082,
-    "time": 0,
-    "map": "level-12"
-  },
-  {
-    "pad": 0,
-    "team": "승승이",
-    "start_time": "2025-04-26 15:50:03",
-    "score_time": "2025-04-26 16:06:06",
-    "allscore": 1393,
-    "time": 0,
-    "map": "level-14"
-  },
-  {
-    "pad": 2,
-    "team": "빵꾸똥꾸오랑우탄",
-    "start_time": "2025-04-26 15:54:15",
-    "score_time": "2025-04-26 16:10:17",
-    "allscore": 485,
-    "time": 0,
-    "map": "level-5"
-  },
-  {
-    "pad": 3,
-    "team": "뚜레블러",
-    "start_time": "2025-04-26 15:58:59",
-    "score_time": "2025-04-26 16:15:02",
-    "allscore": 468,
-    "time": 0,
-    "map": "level-8"
-  },
-  {
-    "pad": 1,
-    "team": "이화친구들",
-    "start_time": "2025-04-26 16:01:52",
-    "score_time": "2025-04-26 16:17:55",
-    "allscore": 1088,
-    "time": 0,
-    "map": "level-14"
-  },
-  {
-    "pad": 0,
-    "team": "채뚜",
-    "start_time": "2025-04-26 16:08:26",
-    "score_time": "2025-04-26 16:24:28",
-    "allscore": 1292,
-    "time": 0,
-    "map": "level-17"
-  },
-  {
-    "pad": 2,
-    "team": "연석민정빈예은",
-    "start_time": "2025-04-26 16:14:46",
-    "score_time": "2025-04-26 16:26:22",
-    "allscore": 6694,
-    "time": 5,
-    "map": "FULL"
-  },
-  {
-    "pad": 3,
-    "team": "수빈수진",
-    "start_time": "2025-04-26 16:16:16",
-    "score_time": "2025-04-26 16:32:19",
-    "allscore": 391,
-    "time": 0,
-    "map": "level-9"
-  },
-  {
-    "pad": 1,
-    "team": "병점앞잡이",
-    "start_time": "2025-04-26 16:19:55",
-    "score_time": "2025-04-26 16:35:57",
-    "allscore": 1565,
-    "time": 0,
-    "map": "level-19"
-  },
-  {
-    "pad": 0,
-    "team": "리쁜이네",
-    "start_time": "2025-04-26 16:25:39",
-    "score_time": "2025-04-26 16:41:42",
-    "allscore": 981,
-    "time": 0,
-    "map": "level-14"
-  },
-  {
-    "pad": 2,
-    "team": "1+1=귀요미",
-    "start_time": "2025-04-26 16:33:40",
-    "score_time": "2025-04-26 16:49:42",
-    "allscore": 652,
-    "time": 0,
-    "map": "level-9"
-  },
-  {
-    "pad": 3,
-    "team": "유누유누",
-    "start_time": "2025-04-26 16:34:09",
-    "score_time": "2025-04-26 16:50:11",
-    "allscore": 1594,
-    "time": 0,
-    "map": "level-17"
-  },
-  {
-    "pad": 1,
-    "team": "투하",
-    "start_time": "2025-04-26 16:42:58",
-    "score_time": "2025-04-26 16:59:00",
-    "allscore": 1226,
-    "time": 0,
-    "map": "level-14"
-  },
-  {
-    "pad": 3,
-    "team": "수한라희",
-    "start_time": "2025-04-26 17:11:48",
-    "score_time": "2025-04-26 17:27:50",
-    "allscore": 1263,
-    "time": 0,
-    "map": "level-14"
-  },
-  {
-    "pad": 1,
-    "team": "알파팀",
-    "start_time": "2025-04-26 17:14:27",
-    "score_time": "2025-04-26 17:30:30",
-    "allscore": 1586,
-    "time": 0,
-    "map": "level-20"
-  },
-  {
-    "pad": 3,
-    "team": "우진^^",
-    "start_time": "2025-04-26 17:29:47",
-    "score_time": "2025-04-26 17:45:50",
-    "allscore": 1893,
-    "time": 0,
-    "map": "level-20"
-  },
-  {
-    "pad": 1,
-    "team": "유니유니",
-    "start_time": "2025-04-26 17:52:41",
-    "score_time": "2025-04-26 18:08:43",
-    "allscore": 1214,
-    "time": 0,
-    "map": "level-16"
-  },
-  {
-    "pad": 0,
-    "team": "옥수수수염차",
-    "start_time": "2025-04-26 17:59:54",
-    "score_time": "2025-04-26 18:15:56",
-    "allscore": 1149,
-    "time": 0,
-    "map": "level-15"
-  },
-  {
-    "pad": 2,
-    "team": "마인어스",
-    "start_time": "2025-04-26 18:04:15",
-    "score_time": "2025-04-26 18:20:18",
-    "allscore": 1733,
-    "time": 0,
-    "map": "level-20"
-  },
-  {
-    "pad": 0,
-    "team": "우가무스",
-    "start_time": "2025-04-26 18:16:43",
-    "score_time": "2025-04-26 18:28:25",
-    "allscore": 6417,
-    "time": 5,
-    "map": "FULL"
-  },
-  {
-    "pad": 1,
-    "team": "앙기모띠",
-    "start_time": "2025-04-26 18:33:55",
-    "score_time": "2025-04-26 18:49:57",
-    "allscore": 1978,
-    "time": 0,
-    "map": "level-21"
-  },
-  {
-    "pad": 2,
-    "team": "우가무스",
-    "start_time": "2025-04-26 18:35:22",
-    "score_time": "2025-04-26 18:51:24",
-    "allscore": 1901,
-    "time": 0,
-    "map": "level-17"
-  },
-  {
-    "pad": 0,
-    "team": "대정남이",
-    "start_time": "2025-04-26 18:40:34",
-    "score_time": "2025-04-26 18:54:02",
-    "allscore": 4783,
-    "time": 3,
-    "map": "FULL"
-  },
-  {
-    "pad": 1,
-    "team": "앙기모띠",
-    "start_time": "2025-04-26 18:54:10",
-    "score_time": "2025-04-26 19:06:48",
-    "allscore": 4975,
-    "time": 3,
-    "map": "FULL"
-  },
-  {
-    "pad": 2,
-    "team": "이유네",
-    "start_time": "2025-04-26 19:08:22",
-    "score_time": "2025-04-26 19:22:40",
-    "allscore": 4912,
-    "time": 2,
-    "map": "FULL"
-  },
-  {
-    "pad": 0,
-    "team": "연남매",
-    "start_time": "2025-04-26 19:11:53",
-    "score_time": "2025-04-26 19:27:56",
-    "allscore": 1256,
-    "time": 0,
-    "map": "倒计时3"
-  },
-  {
-    "pad": 1,
-    "team": "앙기모띠",
-    "start_time": "2025-04-26 19:15:52",
-    "score_time": "2025-04-26 19:31:54",
-    "allscore": 1648,
-    "time": 0,
-    "map": "level-20"
-  },
-  {
-    "pad": 3,
-    "team": "인형뽑기2만원쓴애들",
-    "start_time": "2025-04-26 19:24:47",
-    "score_time": "2025-04-26 19:40:50",
-    "allscore": 1242,
-    "time": 0,
-    "map": "level-17"
-  },
-  {
-    "pad": 1,
-    "team": "앙기모띠",
-    "start_time": "2025-04-26 19:32:32",
-    "score_time": "2025-04-26 19:48:35",
-    "allscore": 1099,
-    "time": 0,
-    "map": "level-15"
-  },
-  {
-    "pad": 0,
-    "team": "라쓰고",
-    "start_time": "2025-04-26 19:36:57",
-    "score_time": "2025-04-26 19:52:34",
-    "allscore": 1929,
-    "time": 0,
-    "map": "FULL"
-  },
-  {
-    "pad": 3,
-    "team": "혜이서",
-    "start_time": "2025-04-26 19:46:40",
-    "score_time": "2025-04-26 20:02:42",
-    "allscore": 1908,
-    "time": 0,
-    "map": "level-20"
-  },
-  {
-    "pad": 1,
-    "team": "복두꺼비",
-    "start_time": "2025-04-26 19:57:44",
-    "score_time": "2025-04-26 20:13:39",
-    "allscore": 2725,
-    "time": 1,
-    "map": "FULL"
-  },
-  {
-    "pad": 0,
-    "team": "박혜숙과",
-    "start_time": "2025-04-26 20:06:45",
-    "score_time": "2025-04-26 20:22:48",
-    "allscore": 1498,
-    "time": 0,
-    "map": "level-19"
-  },
-  {
-    "pad": 3,
-    "team": "현다스쿼드",
-    "start_time": "2025-04-26 20:10:26",
-    "score_time": "2025-04-26 20:26:29",
-    "allscore": 658,
-    "time": 0,
-    "map": "level-11"
-  },
-  {
-    "pad": 1,
-    "team": "보경이둘",
-    "start_time": "2025-04-26 20:58:30",
-    "score_time": "2025-04-26 21:14:32",
-    "allscore": 1471,
-    "time": 0,
-    "map": "level-16"
-  },
-  {
-    "pad": 3,
-    "team": "온스패밀리",
-    "start_time": "2025-04-26 21:14:08",
-    "score_time": "2025-04-26 21:30:11",
-    "allscore": 1632,
-    "time": 0,
-    "map": "level-18"
-  },
-  {
-    "pad": 0,
-    "team": "덩이들",
-    "start_time": "2025-04-26 21:56:28",
-    "score_time": "2025-04-26 22:12:30",
-    "allscore": 1637,
-    "time": 0,
-    "map": "level-20"
-  },
-  {
     "pad": 0,
     "team": "만두쿠쿠",
     "start_time": "2025-04-27 10:59:09",
     "score_time": "2025-04-27 11:15:14",
     "allscore": 1253,
     "time": 0,
-    "map": "level-17"
+    "map": "level-17",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -483,7 +17,9 @@
     "score_time": "2025-04-27 11:45:42",
     "allscore": 887,
     "time": 0,
-    "map": "level-13"
+    "map": "level-13",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -492,7 +28,9 @@
     "score_time": "2025-04-27 12:05:51",
     "allscore": 5118,
     "time": 3,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -501,7 +39,9 @@
     "score_time": "2025-04-27 12:05:31",
     "allscore": 1549,
     "time": 0,
-    "map": "level-19"
+    "map": "level-19",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -510,7 +50,9 @@
     "score_time": "2025-04-27 12:22:27",
     "allscore": 1750,
     "time": 0,
-    "map": "level-16"
+    "map": "level-16",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -519,7 +61,9 @@
     "score_time": "2025-04-27 12:40:53",
     "allscore": 1353,
     "time": 0,
-    "map": "level-16"
+    "map": "level-16",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -528,7 +72,9 @@
     "score_time": "2025-04-27 12:51:34",
     "allscore": 1596,
     "time": 0,
-    "map": "level-19"
+    "map": "level-19",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -537,7 +83,9 @@
     "score_time": "2025-04-27 12:59:41",
     "allscore": 803,
     "time": 0,
-    "map": "level-12"
+    "map": "level-12",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -546,7 +94,9 @@
     "score_time": "2025-04-27 13:02:41",
     "allscore": 1390,
     "time": 0,
-    "map": "level-16"
+    "map": "level-16",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -555,7 +105,9 @@
     "score_time": "2025-04-27 13:16:45",
     "allscore": 1226,
     "time": 0,
-    "map": "level-16"
+    "map": "level-16",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -564,7 +116,9 @@
     "score_time": "2025-04-27 13:18:15",
     "allscore": 1378,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -573,7 +127,9 @@
     "score_time": "2025-04-27 13:20:11",
     "allscore": 745,
     "time": 0,
-    "map": "level-10"
+    "map": "level-10",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -582,7 +138,9 @@
     "score_time": "2025-04-27 13:32:13",
     "allscore": 5747,
     "time": 4,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -591,7 +149,9 @@
     "score_time": "2025-04-27 13:33:10",
     "allscore": 5717,
     "time": 4,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -600,7 +160,9 @@
     "score_time": "2025-04-27 13:52:09",
     "allscore": 588,
     "time": 0,
-    "map": "level-9"
+    "map": "level-9",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -609,7 +171,9 @@
     "score_time": "2025-04-27 13:52:13",
     "allscore": 1313,
     "time": 0,
-    "map": "level-14"
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -618,7 +182,9 @@
     "score_time": "2025-04-27 13:58:20",
     "allscore": 1273,
     "time": 0,
-    "map": "level-17"
+    "map": "level-17",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -627,7 +193,9 @@
     "score_time": "2025-04-27 14:06:00",
     "allscore": 1109,
     "time": 0,
-    "map": "level-15"
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -636,7 +204,9 @@
     "score_time": "2025-04-27 14:09:15",
     "allscore": 1045,
     "time": 0,
-    "map": "level-14"
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -645,7 +215,9 @@
     "score_time": "2025-04-27 14:14:02",
     "allscore": 1448,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -654,7 +226,9 @@
     "score_time": "2025-04-27 14:15:01",
     "allscore": 1308,
     "time": 0,
-    "map": "level-16"
+    "map": "level-16",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -663,7 +237,9 @@
     "score_time": "2025-04-27 14:23:21",
     "allscore": 1842,
     "time": 0,
-    "map": "level-20"
+    "map": "level-20",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -672,7 +248,9 @@
     "score_time": "2025-04-27 14:31:22",
     "allscore": 441,
     "time": 0,
-    "map": "level-9"
+    "map": "level-9",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -681,7 +259,9 @@
     "score_time": "2025-04-27 14:32:14",
     "allscore": 1227,
     "time": 0,
-    "map": "level-15"
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -690,7 +270,9 @@
     "score_time": "2025-04-27 14:33:30",
     "allscore": 1546,
     "time": 0,
-    "map": "level-19"
+    "map": "level-19",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -699,7 +281,9 @@
     "score_time": "2025-04-27 14:42:03",
     "allscore": 2986,
     "time": 1,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -708,7 +292,9 @@
     "score_time": "2025-04-27 14:49:22",
     "allscore": 356,
     "time": 0,
-    "map": "level-7"
+    "map": "level-7",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -717,7 +303,9 @@
     "score_time": "2025-04-27 14:49:36",
     "allscore": 736,
     "time": 0,
-    "map": "level-10"
+    "map": "level-10",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -726,7 +314,9 @@
     "score_time": "2025-04-27 14:50:18",
     "allscore": 1469,
     "time": 0,
-    "map": "level-19"
+    "map": "level-19",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -735,7 +325,9 @@
     "score_time": "2025-04-27 15:06:10",
     "allscore": 1229,
     "time": 0,
-    "map": "level-14"
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -744,7 +336,9 @@
     "score_time": "2025-04-27 15:06:57",
     "allscore": 1882,
     "time": 0,
-    "map": "level-20"
+    "map": "level-20",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -753,7 +347,9 @@
     "score_time": "2025-04-27 15:08:19",
     "allscore": 2406,
     "time": 0,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -762,7 +358,9 @@
     "score_time": "2025-04-27 15:09:43",
     "allscore": 2955,
     "time": 1,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -771,7 +369,9 @@
     "score_time": "2025-04-27 15:22:53",
     "allscore": 1337,
     "time": 0,
-    "map": "level-14"
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -780,7 +380,9 @@
     "score_time": "2025-04-27 15:23:47",
     "allscore": 641,
     "time": 0,
-    "map": "level-10"
+    "map": "level-10",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -789,7 +391,9 @@
     "score_time": "2025-04-27 15:25:14",
     "allscore": 747,
     "time": 0,
-    "map": "level-10"
+    "map": "level-10",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -798,7 +402,9 @@
     "score_time": "2025-04-27 15:26:52",
     "allscore": 1791,
     "time": 0,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -807,7 +413,9 @@
     "score_time": "2025-04-27 15:36:44",
     "allscore": 4891,
     "time": 3,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -816,7 +424,9 @@
     "score_time": "2025-04-27 15:41:23",
     "allscore": 1325,
     "time": 0,
-    "map": "level-14"
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -825,7 +435,9 @@
     "score_time": "2025-04-27 15:42:52",
     "allscore": 1344,
     "time": 0,
-    "map": "level-14"
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -834,7 +446,9 @@
     "score_time": "2025-04-27 15:44:53",
     "allscore": 1294,
     "time": 0,
-    "map": "level-14"
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -843,7 +457,9 @@
     "score_time": "2025-04-27 15:52:02",
     "allscore": 2977,
     "time": 1,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -852,7 +468,9 @@
     "score_time": "2025-04-27 15:57:57",
     "allscore": 1683,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -861,7 +479,9 @@
     "score_time": "2025-04-27 15:59:29",
     "allscore": 1969,
     "time": 0,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -870,7 +490,9 @@
     "score_time": "2025-04-27 16:07:06",
     "allscore": 1550,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -879,7 +501,9 @@
     "score_time": "2025-04-27 16:11:34",
     "allscore": 1509,
     "time": 0,
-    "map": "level-17"
+    "map": "level-17",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -888,7 +512,9 @@
     "score_time": "2025-04-27 16:15:54",
     "allscore": 1970,
     "time": 0,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -897,7 +523,9 @@
     "score_time": "2025-04-27 16:34:44",
     "allscore": 1993,
     "time": 0,
-    "map": "level-21"
+    "map": "level-21",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -906,7 +534,9 @@
     "score_time": "2025-04-27 16:43:18",
     "allscore": 547,
     "time": 0,
-    "map": "level-9"
+    "map": "level-9",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -915,7 +545,9 @@
     "score_time": "2025-04-27 16:53:40",
     "allscore": 1020,
     "time": 0,
-    "map": "level-15"
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -924,7 +556,9 @@
     "score_time": "2025-04-27 16:54:13",
     "allscore": 1005,
     "time": 0,
-    "map": "level-15"
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -933,7 +567,9 @@
     "score_time": "2025-04-27 17:00:01",
     "allscore": 1434,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -942,7 +578,9 @@
     "score_time": "2025-04-27 17:03:17",
     "allscore": 284,
     "time": 0,
-    "map": "level-5"
+    "map": "level-5",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -951,7 +589,9 @@
     "score_time": "2025-04-27 17:09:26",
     "allscore": 3672,
     "time": 2,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -960,7 +600,9 @@
     "score_time": "2025-04-27 17:10:48",
     "allscore": 1088,
     "time": 0,
-    "map": "level-14"
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -969,7 +611,9 @@
     "score_time": "2025-04-27 17:18:03",
     "allscore": 520,
     "time": 0,
-    "map": "level-9"
+    "map": "level-9",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -978,7 +622,9 @@
     "score_time": "2025-04-27 17:20:02",
     "allscore": 1022,
     "time": 0,
-    "map": "level-13"
+    "map": "level-13",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -987,7 +633,9 @@
     "score_time": "2025-04-27 17:27:02",
     "allscore": 1349,
     "time": 0,
-    "map": "level-14"
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -996,7 +644,9 @@
     "score_time": "2025-04-27 17:56:00",
     "allscore": 1414,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -1005,7 +655,9 @@
     "score_time": "2025-04-27 18:01:07",
     "allscore": 850,
     "time": 0,
-    "map": "level-13"
+    "map": "level-13",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -1014,7 +666,9 @@
     "score_time": "2025-04-27 18:10:47",
     "allscore": 546,
     "time": 0,
-    "map": "level-9"
+    "map": "level-9",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -1023,7 +677,9 @@
     "score_time": "2025-04-27 18:12:55",
     "allscore": 1467,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -1032,7 +688,9 @@
     "score_time": "2025-04-27 18:24:58",
     "allscore": 1487,
     "time": 0,
-    "map": "level-17"
+    "map": "level-17",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -1041,7 +699,9 @@
     "score_time": "2025-04-27 18:28:26",
     "allscore": 642,
     "time": 0,
-    "map": "level-10"
+    "map": "level-10",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -1050,7 +710,9 @@
     "score_time": "2025-04-27 18:36:13",
     "allscore": 1535,
     "time": 0,
-    "map": "level-19"
+    "map": "level-19",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -1059,7 +721,9 @@
     "score_time": "2025-04-27 18:44:33",
     "allscore": 2883,
     "time": 1,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -1068,7 +732,9 @@
     "score_time": "2025-04-27 18:53:39",
     "allscore": 506,
     "time": 0,
-    "map": "level-9"
+    "map": "level-9",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -1077,7 +743,9 @@
     "score_time": "2025-04-27 19:30:26",
     "allscore": 1967,
     "time": 0,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -1086,7 +754,9 @@
     "score_time": "2025-04-27 19:46:20",
     "allscore": 2613,
     "time": 1,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -1095,7 +765,9 @@
     "score_time": "2025-04-27 20:14:38",
     "allscore": 2932,
     "time": 1,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -1104,7 +776,9 @@
     "score_time": "2025-04-27 20:16:00",
     "allscore": 2929,
     "time": 1,
-    "map": "FULL"
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 3,
@@ -1113,7 +787,9 @@
     "score_time": "2025-04-27 20:22:53",
     "allscore": 1634,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -1122,7 +798,9 @@
     "score_time": "2025-04-27 20:27:18",
     "allscore": 1429,
     "time": 0,
-    "map": "level-15"
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -1131,7 +809,9 @@
     "score_time": "2025-04-28 17:12:37",
     "allscore": 1090,
     "time": 0,
-    "map": "level-15"
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -1140,7 +820,9 @@
     "score_time": "2025-04-28 17:36:45",
     "allscore": 492,
     "time": 0,
-    "map": "level-8"
+    "map": "level-8",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 1,
@@ -1149,7 +831,9 @@
     "score_time": "2025-04-28 19:19:41",
     "allscore": 1400,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 0,
@@ -1158,7 +842,9 @@
     "score_time": "2025-04-28 20:05:07",
     "allscore": 1366,
     "time": 0,
-    "map": "level-18"
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -1167,7 +853,9 @@
     "score_time": "2025-04-28 21:39:20",
     "allscore": 1739,
     "time": 0,
-    "map": "level-16"
+    "map": "level-16",
+    "difficulty": "normal",
+    "roomSize": "small"
   },
   {
     "pad": 2,
@@ -1176,6 +864,8 @@
     "score_time": "2025-04-29 13:43:40",
     "allscore": 1557,
     "time": 0,
-    "map": "level-19"
+    "map": "level-19",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
