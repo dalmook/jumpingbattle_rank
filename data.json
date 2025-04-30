@@ -3848,5 +3848,16 @@
     "map": "level-15",
     "difficulty": "normal",
     "roomSize": "medium"
+  },
+  {
+    "pad": 1,
+    "team": "보스베이비",
+    "start_time": "2025-04-30 21:55:55",
+    "score_time": "2025-04-30 22:11:57",
+    "allscore": 1076,
+    "time": 0,
+    "map": "level-15",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
