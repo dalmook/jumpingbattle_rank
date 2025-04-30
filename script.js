@@ -89,6 +89,8 @@ searchInput.addEventListener('keydown', e => {
     const query = searchInput.value.trim().toLowerCase();
     const match = data.find(x => x.team.toLowerCase().includes(query));
     if (match) {
+      // 검색창 지우기
+      searchInput.value = '';
       // 해당 난이도 버튼 활성화
       diffBtns.forEach(b => b.classList.toggle('active', b.dataset.filter === match.difficulty));
       selectedDiff = match.difficulty;
