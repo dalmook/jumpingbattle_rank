@@ -23,8 +23,12 @@ function render() {
   curr.textContent = `${selectedDiff.toUpperCase()} ${roomText}`;
 
   // 데이터 필터링 후 점수 기준 내림차순 정렬
+  // difficulty 또는 roomSize 필드가 없으면 통과시켜 표시
   const arr = data
-    .filter(x => x.difficulty === selectedDiff && x.roomSize === selectedRoom)
+    .filter(x =>
+      (x.difficulty ? x.difficulty === selectedDiff : true) &&
+      (x.roomSize   ? x.roomSize   === selectedRoom : true)
+    )
     .sort((a,b) => b.allscore - a.allscore);
 
   // 좌/우 컬럼으로 분할
