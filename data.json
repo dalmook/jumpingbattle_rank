@@ -3826,5 +3826,16 @@
     "map": "FULL",
     "difficulty": "normal",
     "roomSize": "large"
+  },
+  {
+    "pad": 1,
+    "team": "주니다현",
+    "start_time": "2025-04-30 20:25:14",
+    "score_time": "2025-04-30 20:41:16",
+    "allscore": 1257,
+    "time": 0,
+    "map": "level-17",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
