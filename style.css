@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
 
 :root {
   --bg: #0d0d1a;
@@ -11,7 +11,7 @@
 body {
   background: linear-gradient(135deg, var(--bg), #1a001a);
   color: var(--text);
-  font-family: "Gamja Flower", cursive;
+  font-family: "Sunflower", sans-serif;
   display:flex; flex-direction:column; min-height:100vh;
 }
 header { text-align:center; padding:16px 0; }
