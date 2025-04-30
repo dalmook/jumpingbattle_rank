@@ -3804,5 +3804,16 @@
     "map": "level-14",
     "difficulty": "basic",
     "roomSize": "medium"
+  },
+  {
+    "pad": 0,
+    "team": "이화맘들",
+    "start_time": "2025-04-30 18:34:44",
+    "score_time": "2025-04-30 18:50:46",
+    "allscore": 777,
+    "time": 0,
+    "map": "level-11",
+    "difficulty": "normal",
+    "roomSize": "medium"
   }
 ]
