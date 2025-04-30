@@ -23,7 +23,7 @@ header h1{font-size:2.5rem;text-shadow:0 0 3px var(--neon1),0 0 6px var(--neon2)
   background:rgba(20,20,30,0.6);color:var(--text);width:160px;transition:width 0.2s;}
 .current-filter{margin-top:6px;padding:4px 10px;border:2px solid var(--neon2);
   border-radius:20px;text-shadow:0 0 3px var(--neon2);font-weight:bold;font-size:1rem;}
-.hero{position:relative;background:url('images/symbol.jpg') center/cover no-repeat;
+.hero{position: relative; z-index: 3;background:url('images/symbol.jpg') center/cover no-repeat;
   padding:60px 0;overflow:hidden;}
 .overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);}
 .columns{display:flex;flex-direction:column;gap:var(--gap);max-width:600px;width:100%;margin:0 auto;padding:0 10px;}
