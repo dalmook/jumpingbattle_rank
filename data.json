@@ -1,72 +1,6 @@
 [
   {
     "pad": 0,
-    "team": "점핑배틀 0377",
-    "start_time": "2024-10-17 18:42:42",
-    "score_time": "2024-10-17 18:58:43",
-    "allscore": 52,
-    "time": 0,
-    "map": "level-2",
-    "difficulty": "basic",
-    "roomSize": "medium"
-  },
-  {
-    "pad": 2,
-    "team": "점핑배틀 3633",
-    "start_time": "2024-10-17 18:42:48",
-    "score_time": "2024-10-17 18:58:49",
-    "allscore": 52,
-    "time": 0,
-    "map": "level-2",
-    "difficulty": "basic",
-    "roomSize": "small"
-  },
-  {
-    "pad": 3,
-    "team": "점핑배틀 fa70",
-    "start_time": "2024-10-17 18:42:52",
-    "score_time": "2024-10-17 18:58:53",
-    "allscore": 312,
-    "time": 0,
-    "map": "level-4",
-    "difficulty": "basic",
-    "roomSize": "small"
-  },
-  {
-    "pad": 2,
-    "team": "점핑배틀 75ab",
-    "start_time": "2025-04-17 01:53:06",
-    "score_time": "2025-04-17 02:06:00",
-    "allscore": 6116,
-    "time": 3,
-    "map": "FULL",
-    "difficulty": "basic",
-    "roomSize": "large"
-  },
-  {
-    "pad": 1,
-    "team": "점핑배틀 eada",
-    "start_time": "2025-04-17 02:07:04",
-    "score_time": "2025-04-17 02:19:10",
-    "allscore": 2489,
-    "time": 4,
-    "map": "FULL",
-    "difficulty": "normal",
-    "roomSize": "small"
-  },
-  {
-    "pad": 0,
-    "team": "혜이서",
-    "start_time": "2025-04-17 19:46:14",
-    "score_time": "2025-04-17 20:02:16",
-    "allscore": 1387,
-    "time": 0,
-    "map": "level-14",
-    "difficulty": "basic",
-    "roomSize": "medium"
-  },
-  {
-    "pad": 0,
     "team": "응애",
     "start_time": "2025-04-18 13:52:28",
     "score_time": "2025-04-18 14:08:30",
@@ -3760,5 +3694,49 @@
     "map": "level-17",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "킴찹쌀팀",
+    "start_time": "2025-04-30 13:57:33",
+    "score_time": "2025-04-30 14:12:04",
+    "allscore": 3476,
+    "time": 2,
+    "map": "FULL",
+    "difficulty": "easy",
+    "roomSize": "small"
+  },
+  {
+    "pad": 0,
+    "team": "세둘이네",
+    "start_time": "2025-04-30 14:05:43",
+    "score_time": "2025-04-30 14:21:45",
+    "allscore": 321,
+    "time": 0,
+    "map": "level-6",
+    "difficulty": "hard",
+    "roomSize": "medium"
+  },
+  {
+    "pad": 1,
+    "team": "새우",
+    "start_time": "2025-04-30 14:17:17",
+    "score_time": "2025-04-30 14:33:19",
+    "allscore": 1158,
+    "time": 0,
+    "map": "level-16",
+    "difficulty": "easy",
+    "roomSize": "small"
+  },
+  {
+    "pad": 0,
+    "team": "이지해",
+    "start_time": "2025-04-30 14:22:54",
+    "score_time": "2025-04-30 14:37:21",
+    "allscore": 3396,
+    "time": 2,
+    "map": "FULL",
+    "difficulty": "easy",
+    "roomSize": "medium"
   }
 ]
