@@ -42,7 +42,11 @@ header h1{ font-size:2.5rem; text-shadow:0 0 3px var(--neon1),0 0 6px var(--neon
   width:100%; }
 @media(min-width:768px){ .card{ width:calc(50% - var(--gap)); } }
 .card:hover{ transform:scale(1.03); }
-@keyframes electric{ 0%{box-shadow:0 0 5px var(--neon1);} 50%{box-shadow:0 0 20px var(--neon1),0 0 30px var(--neon2);} 100%{box-shadow:0 0 5px var(--neon2);} }
+@keyframes electric{0%{box-shadow:0 0 5px var(--neon1);}50%{box-shadow:0 0 20px var(--neon1),0 0 30px var(--neon2);}100%{box-shadow:0 0 5px var(--neon2);}}
+
+.card{display:flex;align-items:center;background:rgba(30,30,40,0.8);border:2px solid var(--neon1);border-radius:20px;padding:10px;animation:electric 1.5s infinite alternate;filter:brightness(1.2);transition:transform .3s ease,filter .3s ease;width:100%;}
+@media(min-width:768px){.card{width:calc(50% - var(--gap));}}
+.card:hover{transform:scale(1.05);filter:brightness(1.4);} 50%{box-shadow:0 0 20px var(--neon1),0 0 30px var(--neon2);} 100%{box-shadow:0 0 5px var(--neon2);} }
 
 .rank{ position:relative; z-index:3; width:32px; height:32px; line-height:32px; text-align:center;
   border-radius:50%; background:var(--neon1); color:#000; font-weight:bold; margin-right:10px;
