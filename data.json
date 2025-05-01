@@ -4508,5 +4508,16 @@
     "map": "level-17",
     "difficulty": "normal",
     "roomSize": "medium"
+  },
+  {
+    "pad": 2,
+    "team": "오합지졸",
+    "start_time": "2025-05-01 18:41:28",
+    "score_time": "2025-05-01 18:55:32",
+    "allscore": 3699,
+    "time": 2,
+    "map": "FULL",
+    "difficulty": "easy",
+    "roomSize": "large"
   }
 ]
