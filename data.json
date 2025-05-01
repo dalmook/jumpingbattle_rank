@@ -4519,5 +4519,16 @@
     "map": "FULL",
     "difficulty": "easy",
     "roomSize": "large"
+  },
+  {
+    "pad": 0,
+    "team": "우진이똥개",
+    "start_time": "2025-05-01 18:47:17",
+    "score_time": "2025-05-01 18:59:46",
+    "allscore": 5382,
+    "time": 4,
+    "map": "FULL",
+    "difficulty": "easy",
+    "roomSize": "medium"
   }
 ]
