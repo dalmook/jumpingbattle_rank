@@ -4398,5 +4398,16 @@
     "map": "level-9",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 2,
+    "team": "머저리들",
+    "start_time": "2025-05-01 17:27:43",
+    "score_time": "2025-05-01 17:43:45",
+    "allscore": 714,
+    "time": 0,
+    "map": "level-9",
+    "difficulty": "hard",
+    "roomSize": "large"
   }
 ]
