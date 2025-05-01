@@ -3870,5 +3870,16 @@
     "map": "level-15",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "슈퍼맨",
+    "start_time": "2025-05-01 11:37:07",
+    "score_time": "2025-05-01 11:53:09",
+    "allscore": 1097,
+    "time": 0,
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
