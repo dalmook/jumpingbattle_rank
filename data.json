@@ -4915,5 +4915,16 @@
     "map": "level-17",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 0,
+    "team": "이유지니",
+    "start_time": "2025-05-02 19:35:39",
+    "score_time": "2025-05-02 19:51:41",
+    "allscore": 1494,
+    "time": 0,
+    "map": "level-18",
+    "difficulty": "easy",
+    "roomSize": "medium"
   }
 ]
