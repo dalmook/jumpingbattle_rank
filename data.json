@@ -4662,5 +4662,27 @@
     "map": "level-16",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "점박이네",
+    "start_time": "2025-05-02 12:04:21",
+    "score_time": "2025-05-02 12:18:22",
+    "allscore": 3911,
+    "time": 2,
+    "map": "FULL",
+    "difficulty": "basic",
+    "roomSize": "small"
+  },
+  {
+    "pad": 0,
+    "team": "준서짱",
+    "start_time": "2025-05-02 12:02:32",
+    "score_time": "2025-05-02 12:18:34",
+    "allscore": 1914,
+    "time": 0,
+    "map": "level-19",
+    "difficulty": "basic",
+    "roomSize": "medium"
   }
 ]
