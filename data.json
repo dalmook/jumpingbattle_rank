@@ -4695,5 +4695,16 @@
     "map": "level-14",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "민주민규",
+    "start_time": "2025-05-02 13:03:58",
+    "score_time": "2025-05-02 13:20:00",
+    "allscore": 1052,
+    "time": 0,
+    "map": "level-15",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
