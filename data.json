@@ -4805,5 +4805,16 @@
     "map": "FULL",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 2,
+    "team": "호랑이",
+    "start_time": "2025-05-02 17:41:53",
+    "score_time": "2025-05-02 17:57:55",
+    "allscore": 1531,
+    "time": 0,
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "large"
   }
 ]
