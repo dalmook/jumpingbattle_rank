@@ -4717,5 +4717,16 @@
     "map": "level-14",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "키티",
+    "start_time": "2025-05-02 13:35:06",
+    "score_time": "2025-05-02 13:51:09",
+    "allscore": 705,
+    "time": 0,
+    "map": "level-10",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
