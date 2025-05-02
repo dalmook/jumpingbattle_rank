@@ -4783,5 +4783,16 @@
     "map": "level-17",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 2,
+    "team": "현우사랑녀",
+    "start_time": "2025-05-02 16:15:22",
+    "score_time": "2025-05-02 16:31:24",
+    "allscore": 1926,
+    "time": 0,
+    "map": "level-17",
+    "difficulty": "normal",
+    "roomSize": "large"
   }
 ]
