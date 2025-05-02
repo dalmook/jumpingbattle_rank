@@ -4640,5 +4640,16 @@
     "map": "level-15",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "설하랑 지우랑",
+    "start_time": "2025-05-02 11:15:27",
+    "score_time": "2025-05-02 11:31:29",
+    "allscore": 477,
+    "time": 0,
+    "map": "level-7",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
