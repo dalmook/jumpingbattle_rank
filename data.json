@@ -4838,5 +4838,16 @@
     "map": "level-19",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 0,
+    "team": "영지채",
+    "start_time": "2025-05-02 17:56:58",
+    "score_time": "2025-05-02 18:13:00",
+    "allscore": 1587,
+    "time": 0,
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "medium"
   }
 ]
