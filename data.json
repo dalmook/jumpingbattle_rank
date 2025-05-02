@@ -4629,5 +4629,16 @@
     "map": "FULL",
     "difficulty": "basic",
     "roomSize": "large"
+  },
+  {
+    "pad": 1,
+    "team": "이하늘",
+    "start_time": "2025-05-02 10:58:09",
+    "score_time": "2025-05-02 11:14:13",
+    "allscore": 1061,
+    "time": 0,
+    "map": "level-15",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
