@@ -4937,5 +4937,27 @@
     "map": "level-11",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "♡♡♡",
+    "start_time": "2025-05-02 20:44:18",
+    "score_time": "2025-05-02 21:00:20",
+    "allscore": 376,
+    "time": 0,
+    "map": "level-7",
+    "difficulty": "easy",
+    "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "간지",
+    "start_time": "2025-05-02 20:46:21",
+    "score_time": "2025-05-02 21:02:23",
+    "allscore": 1465,
+    "time": 0,
+    "map": "level-18",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
