@@ -4904,5 +4904,16 @@
     "map": "level-19",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "만두식",
+    "start_time": "2025-05-02 19:20:35",
+    "score_time": "2025-05-02 19:36:37",
+    "allscore": 1591,
+    "time": 0,
+    "map": "level-17",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
