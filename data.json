@@ -4882,5 +4882,16 @@
     "map": "FULL",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "은똥이년",
+    "start_time": "2025-05-02 19:04:01",
+    "score_time": "2025-05-02 19:20:04",
+    "allscore": 994,
+    "time": 0,
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
