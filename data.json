@@ -4794,5 +4794,16 @@
     "map": "level-17",
     "difficulty": "normal",
     "roomSize": "large"
+  },
+  {
+    "pad": 1,
+    "team": "지압슬리퍼",
+    "start_time": "2025-05-02 17:21:31",
+    "score_time": "2025-05-02 17:34:32",
+    "allscore": 5747,
+    "time": 4,
+    "map": "FULL",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
