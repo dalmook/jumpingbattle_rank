@@ -4761,5 +4761,16 @@
     "map": "level-14",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "달봉",
+    "start_time": "2025-05-02 15:31:33",
+    "score_time": "2025-05-02 15:47:35",
+    "allscore": 1632,
+    "time": 0,
+    "map": "level-19",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
