@@ -4728,5 +4728,16 @@
     "map": "level-10",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "햄",
+    "start_time": "2025-05-02 14:03:35",
+    "score_time": "2025-05-02 14:19:37",
+    "allscore": 1488,
+    "time": 0,
+    "map": "level-16",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
