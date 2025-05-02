@@ -4739,5 +4739,16 @@
     "map": "level-16",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "수정기현",
+    "start_time": "2025-05-02 14:34:45",
+    "score_time": "2025-05-02 14:50:47",
+    "allscore": 1401,
+    "time": 0,
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
