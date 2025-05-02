@@ -4849,5 +4849,16 @@
     "map": "level-18",
     "difficulty": "normal",
     "roomSize": "medium"
+  },
+  {
+    "pad": 1,
+    "team": "은똥이년",
+    "start_time": "2025-05-02 18:31:57",
+    "score_time": "2025-05-02 18:47:59",
+    "allscore": 1510,
+    "time": 0,
+    "map": "level-18",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
