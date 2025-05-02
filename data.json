@@ -4860,5 +4860,16 @@
     "map": "level-18",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 2,
+    "team": "모지리들",
+    "start_time": "2025-05-02 18:48:17",
+    "score_time": "2025-05-02 19:04:19",
+    "allscore": 1721,
+    "time": 0,
+    "map": "level-16",
+    "difficulty": "normal",
+    "roomSize": "large"
   }
 ]
