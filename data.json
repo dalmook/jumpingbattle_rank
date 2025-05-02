@@ -4651,5 +4651,16 @@
     "map": "level-7",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "준서짱",
+    "start_time": "2025-05-02 11:41:17",
+    "score_time": "2025-05-02 11:57:20",
+    "allscore": 1536,
+    "time": 0,
+    "map": "level-16",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
