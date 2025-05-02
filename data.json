@@ -4871,5 +4871,16 @@
     "map": "level-16",
     "difficulty": "normal",
     "roomSize": "large"
+  },
+  {
+    "pad": 1,
+    "team": "하하호호",
+    "start_time": "2025-05-02 18:57:41",
+    "score_time": "2025-05-02 19:12:18",
+    "allscore": 2350,
+    "time": 1,
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
