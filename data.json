@@ -4893,5 +4893,16 @@
     "map": "level-14",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "하눌마눌",
+    "start_time": "2025-05-02 19:14:45",
+    "score_time": "2025-05-02 19:30:49",
+    "allscore": 1498,
+    "time": 0,
+    "map": "level-19",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
