@@ -4772,5 +4772,16 @@
     "map": "level-19",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "천사공부방",
+    "start_time": "2025-05-02 15:52:08",
+    "score_time": "2025-05-02 16:08:10",
+    "allscore": 1653,
+    "time": 0,
+    "map": "level-17",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
