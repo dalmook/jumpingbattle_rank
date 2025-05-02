@@ -66,23 +66,36 @@ roomBtns.forEach(b=>b.addEventListener('click', ()=>{
 }));
 
 // 검색 (전체 데이터 기반)
-searchInput.addEventListener('keydown', e=>{
-  if(e.key!=='Enter') return;
+searchInput.addEventListener('keydown', e => {
+  if (e.key !== 'Enter') return;
   const q = searchInput.value.trim().toLowerCase();
   searchInput.value = '';
-  if(!q) { render(); return; }
 
-  // 전체 데이터 전역 정렬
-  const global = data.slice().sort((a,b)=>b.allscore - a.allscore);
-  const matches = global.filter(x=>x.team.toLowerCase().includes(q));
+  // 빈 검색어면 전체 렌더
+  if (!q) { render(); return; }
+
+  // 1) 현재 필터 기준으로만 뽑아서 정렬
+  const base = data
+    .filter(x => x.difficulty === selectedDiff && x.roomSize === selectedRoom)
+    .sort((a,b) => b.allscore - a.allscore);
+
+  // 2) base 안에서 검색어 포함된 항목만
+  const matches = base.filter(x => x.team.toLowerCase().includes(q));
+
+  // 3) 리스트 클리어 후 매치된 항목 렌더
   list.innerHTML = '';
-  matches.forEach(item=>{
-    const rank = global.findIndex(x=>x===item)+1;
+  matches.forEach((item, idx) => {
+    // idx는 base 기준 순위 인덱스가 아니라 matches 순서이므로
+    // 원본 base 에서의 순위를 찾아야 함
+    const rank = base.findIndex(x => x === item) + 1;
     const card = createCard(item, rank);
-    // 팀명 하이라이트 (모든 매치)
+
+    // 팀명 하이라이트
     const teamDiv = card.querySelector('.team');
-    teamDiv.innerHTML = teamDiv.textContent.replace(new RegExp(q,'gi'), m=>`<span class="highlight">${m}</span>`)
+    const regex = new RegExp(q, 'gi');
+    teamDiv.innerHTML = teamDiv.textContent.replace(regex, m => `<span class="highlight">${m}</span>`)
       + teamDiv.querySelector('.score-large').outerHTML;
+
     list.appendChild(card);
   });
 });
