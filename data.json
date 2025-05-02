@@ -4750,5 +4750,16 @@
     "map": "level-18",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "시우찡",
+    "start_time": "2025-05-02 14:44:49",
+    "score_time": "2025-05-02 15:00:51",
+    "allscore": 1293,
+    "time": 0,
+    "map": "level-14",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
