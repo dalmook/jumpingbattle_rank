@@ -5201,5 +5201,16 @@
     "map": "level-19",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "아무거나",
+    "start_time": "2025-05-03 16:56:50",
+    "score_time": "2025-05-03 17:12:52",
+    "allscore": 1694,
+    "time": 0,
+    "map": "level-18",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
