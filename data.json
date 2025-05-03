@@ -5289,5 +5289,16 @@
     "map": "FULL",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "유라",
+    "start_time": "2025-05-03 17:41:54",
+    "score_time": "2025-05-03 17:57:56",
+    "allscore": 1257,
+    "time": 0,
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
