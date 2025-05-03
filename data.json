@@ -5421,5 +5421,16 @@
     "map": "FULL",
     "difficulty": "easy",
     "roomSize": "medium"
+  },
+  {
+    "pad": 1,
+    "team": "퓨처와꼬마",
+    "start_time": "2025-05-03 20:17:57",
+    "score_time": "2025-05-03 20:33:59",
+    "allscore": 1694,
+    "time": 0,
+    "map": "level-18",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
