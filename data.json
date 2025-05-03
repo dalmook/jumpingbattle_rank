@@ -4970,5 +4970,16 @@
     "map": "level-14",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 0,
+    "team": "쭌ㅋ",
+    "start_time": "2025-05-03 12:55:11",
+    "score_time": "2025-05-03 13:11:13",
+    "allscore": 1028,
+    "time": 0,
+    "map": "level-13",
+    "difficulty": "normal",
+    "roomSize": "medium"
   }
 ]
