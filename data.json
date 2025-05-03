@@ -5135,5 +5135,16 @@
     "map": "level-16",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "시누짱",
+    "start_time": "2025-05-03 16:00:01",
+    "score_time": "2025-05-03 16:16:03",
+    "allscore": 1306,
+    "time": 0,
+    "map": "level-14",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
