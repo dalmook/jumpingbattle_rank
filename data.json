@@ -5344,5 +5344,16 @@
     "map": "level-19",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "종구",
+    "start_time": "2025-05-03 18:43:19",
+    "score_time": "2025-05-03 18:59:22",
+    "allscore": 1790,
+    "time": 0,
+    "map": "level-20",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
