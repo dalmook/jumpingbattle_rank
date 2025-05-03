@@ -5069,5 +5069,27 @@
     "map": "level-18",
     "difficulty": "normal",
     "roomSize": "medium"
+  },
+  {
+    "pad": 0,
+    "team": "이마트와",
+    "start_time": "2025-05-03 13:57:47",
+    "score_time": "2025-05-03 14:13:49",
+    "allscore": 1726,
+    "time": 0,
+    "map": "level-20",
+    "difficulty": "normal",
+    "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "치킨",
+    "start_time": "2025-05-03 14:25:59",
+    "score_time": "2025-05-03 14:42:01",
+    "allscore": 1483,
+    "time": 0,
+    "map": "level-16",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
