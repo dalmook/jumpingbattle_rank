@@ -4981,5 +4981,16 @@
     "map": "level-13",
     "difficulty": "normal",
     "roomSize": "medium"
+  },
+  {
+    "pad": 0,
+    "team": "이마트와 친구들",
+    "start_time": "2025-05-03 13:57:47",
+    "score_time": "2025-05-03 14:13:49",
+    "allscore": 1726,
+    "time": 0,
+    "map": "level-20",
+    "difficulty": "easy",
+    "roomSize": "medium"
   }
 ]
