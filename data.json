@@ -5267,5 +5267,27 @@
     "map": "level-14",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "딸기",
+    "start_time": "2025-05-03 17:35:28",
+    "score_time": "2025-05-03 17:51:03",
+    "allscore": 1901,
+    "time": 0,
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
+  },
+  {
+    "pad": 0,
+    "team": "아픈친구들",
+    "start_time": "2025-05-03 17:40:37",
+    "score_time": "2025-05-03 17:52:36",
+    "allscore": 5337,
+    "time": 4,
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
