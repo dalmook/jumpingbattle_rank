@@ -5036,5 +5036,16 @@
     "map": "FULL",
     "difficulty": "easy",
     "roomSize": "medium"
+  },
+  {
+    "pad": 1,
+    "team": "치킨 바나나",
+    "start_time": "2025-05-03 14:25:59",
+    "score_time": "2025-05-03 14:42:01",
+    "allscore": 1483,
+    "time": 0,
+    "map": "level-16",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
