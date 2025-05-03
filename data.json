@@ -5344,5 +5344,16 @@
     "map": "FULL",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 2,
+    "team": "아픈친구들",
+    "start_time": "2025-05-03 18:04:53",
+    "score_time": "2025-05-03 18:18:31",
+    "allscore": 3294,
+    "time": 2,
+    "map": "FULL",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
