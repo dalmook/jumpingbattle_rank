@@ -5047,5 +5047,16 @@
     "map": "level-16",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 2,
+    "team": "슈퍼울트라제너럴캡숑짱",
+    "start_time": "2025-05-03 14:33:35",
+    "score_time": "2025-05-03 14:49:38",
+    "allscore": 1431,
+    "time": 0,
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "large"
   }
 ]
