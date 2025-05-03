@@ -5223,5 +5223,16 @@
     "map": "level-13",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 2,
+    "team": "동물원",
+    "start_time": "2025-05-03 17:13:13",
+    "score_time": "2025-05-03 17:29:15",
+    "allscore": 1528,
+    "time": 0,
+    "map": "level-19",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
