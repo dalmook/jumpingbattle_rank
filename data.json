@@ -5465,5 +5465,16 @@
     "map": "FULL",
     "difficulty": "basic",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "밤비네",
+    "start_time": "2025-05-03 21:17:05",
+    "score_time": "2025-05-03 21:33:07",
+    "allscore": 1323,
+    "time": 0,
+    "map": "level-14",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
