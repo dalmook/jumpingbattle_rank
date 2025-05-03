@@ -5388,5 +5388,16 @@
     "map": "FULL",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "달봉혜서",
+    "start_time": "2025-05-03 19:41:13",
+    "score_time": "2025-05-03 19:57:15",
+    "allscore": 1273,
+    "time": 0,
+    "map": "level-16",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
