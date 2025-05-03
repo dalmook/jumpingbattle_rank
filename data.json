@@ -5410,5 +5410,16 @@
     "map": "level-15",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 0,
+    "team": "캐럿",
+    "start_time": "2025-05-03 20:03:03",
+    "score_time": "2025-05-03 20:17:10",
+    "allscore": 3519,
+    "time": 2,
+    "map": "FULL",
+    "difficulty": "easy",
+    "roomSize": "medium"
   }
 ]
