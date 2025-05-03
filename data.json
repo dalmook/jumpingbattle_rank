@@ -5300,5 +5300,16 @@
     "map": "level-14",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 2,
+    "team": "병점중의전설",
+    "start_time": "2025-05-03 17:46:07",
+    "score_time": "2025-05-03 18:02:09",
+    "allscore": 1840,
+    "time": 0,
+    "map": "level-17",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
