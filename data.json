@@ -5366,5 +5366,16 @@
     "map": "level-16",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "궁디팡찜찌니",
+    "start_time": "2025-05-03 19:22:13",
+    "score_time": "2025-05-03 19:37:01",
+    "allscore": 2551,
+    "time": 1,
+    "map": "FULL",
+    "difficulty": "easy",
+    "roomSize": "small"
   }
 ]
