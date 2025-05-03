@@ -5091,5 +5091,16 @@
     "map": "level-16",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "강민사랑단",
+    "start_time": "2025-05-03 15:39:06",
+    "score_time": "2025-05-03 15:55:08",
+    "allscore": 1295,
+    "time": 0,
+    "map": "level-17",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
