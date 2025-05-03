@@ -5179,5 +5179,16 @@
     "map": "level-17",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "진진자라",
+    "start_time": "2025-05-03 16:30:33",
+    "score_time": "2025-05-03 16:46:36",
+    "allscore": 1105,
+    "time": 0,
+    "map": "level-15",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
