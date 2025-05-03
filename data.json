@@ -5190,5 +5190,16 @@
     "map": "level-15",
     "difficulty": "normal",
     "roomSize": "small"
+  },
+  {
+    "pad": 3,
+    "team": "감자",
+    "start_time": "2025-05-03 16:45:03",
+    "score_time": "2025-05-03 17:01:05",
+    "allscore": 1772,
+    "time": 0,
+    "map": "level-19",
+    "difficulty": "normal",
+    "roomSize": "small"
   }
 ]
