@@ -5553,5 +5553,16 @@
     "map": "level-14",
     "difficulty": "easy",
     "roomSize": "small"
+  },
+  {
+    "pad": 1,
+    "team": "아윤권",
+    "start_time": "2025-05-04 11:45:43",
+    "score_time": "2025-05-04 12:01:45",
+    "allscore": 1317,
+    "time": 0,
+    "map": "level-14",
+    "difficulty": "basic",
+    "roomSize": "small"
   }
 ]
