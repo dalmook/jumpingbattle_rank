@@ -2,11 +2,14 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>점핑배틀 화성병점점</title>
   <!-- Google Font: Sunflower -->
   <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <!-- Firebase compat SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
 </head>
 <body>
   <header>
@@ -37,6 +40,22 @@
   </main>
 
   <footer>© 2025 점핑배틀 화성병점점</footer>
+
+  <script>
+    // Firebase 초기화
+    const firebaseConfig = {
+      apiKey: "AIzaSyCvVtfn-2e5Di0q4SWXPb86IPsXoT7O7Bs",
+      authDomain: "jumpingrank-1ed90.firebaseapp.com",
+      databaseURL: "https://jumpingrank-1ed90-default-rtdb.firebaseio.com",
+      projectId: "jumpingrank-1ed90",
+      storageBucket: "jumpingrank-1ed90.appspot.com",
+      messagingSenderId: "503764685542",
+      appId: "1:503764685542:web:ddadb5f36b2ac6846e6127",
+      measurementId: "G-8S2E1JCXMR"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
   <script src="script.js"></script>
 </body>
 </html>
